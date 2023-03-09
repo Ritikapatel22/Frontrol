@@ -1,0 +1,32 @@
+{
+  "columnDefs": [
+    {
+      "field": "aging",
+      "text": "Aging"
+    },
+    {
+      "field": "balance",
+      "text": "Balance",
+      "width": 200,
+      "type": [
+        "currencyColumn"
+      ]
+    }
+  ],
+  "suppressDragLeaveHidesColumns": true,
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true,
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "suppressMovable": true
+  },
+  "enableRangeSelection": true,
+  "enableColumnMoving": false,
+  "defaultExcelExportParams": {
+    "fileName": "Aged AR Tend",
+    "sheetName": "Summary"
+  }
+}

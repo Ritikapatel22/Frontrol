@@ -1,0 +1,41 @@
+{
+    "columnDefs": [
+        {
+            "field": "supplier_name",
+            "headerName": "Supplier name",
+            "type": "textColumnSingleFilter",
+            "width": 230,
+            "pinned": "left"
+        },
+        {
+            "field": "paidamount",
+            "headerName": "Amount paid",
+            "type": ["currencyColumn", "totalColumn"]
+        },
+        {
+            "field": "pendingamount",
+            "headerName": "Amount outstanding",
+            "type": ["currencyColumn", "totalColumn"]
+        },
+        {
+            "field": "totalamount",
+            "headerName": "Approved invoice value",
+            "type": ["currencyColumn", "totalColumn"]
+        }
+    ],
+    "suppressDragLeaveHidesColumns": true,
+    "defaultColDef": {
+        "wrapHeaderText": true,
+        "autoHeaderHeight": true, 
+        "resizable": true,
+        "menuTabs": ["generalMenuTab"],
+        "suppressMovable": true
+    },
+    "enableRangeSelection": true,
+    "enableColumnMoving": false,
+    "defaultExcelExportParams": {
+        "fileName": "Supplier invoice",
+        "sheetName": "Table",
+        "combinedSheetName": "Supplier invoice"
+    }
+}

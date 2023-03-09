@@ -1,0 +1,67 @@
+{
+  "SERIES_INFO_INVOICE_Bill": [{
+      "type": "Paid"
+    },
+    {
+      "type": "Billed AR Current"
+    },
+    {
+      "type": "Billed AR 31 - 60 Days"
+    },
+    {
+      "type": "Billed AR 61 - 90 Days"
+    },
+    {
+      "type": "Billed AR 91 - 180 Days"
+    },
+    {
+      "type": "Billed AR > 180 Days"
+    },
+    {
+      "type": "Retention"
+    }
+  ],
+  "SERIES_INFO": {
+    "ar_0030_series": {
+      "label": "Billed AR Current",
+      "color": "#00353E"
+    },
+    "ar_3160_series": {
+      "label": "Billed AR 31 - 60 Days",
+      "color": "#008768"
+    },
+    "ar_6190_series": {
+      "label": "Billed AR 61 - 90 Days",
+      "color": "#AECC53"
+    },
+    "ar_91180_series": {
+      "label": "Billed AR 91 - 180 Days",
+      "color": "#FFCE00"
+    },
+    "ar_121180_series": {
+      "label": "Billed AR 121 - 180 Days",
+      "color": "#FFCE00"
+    },
+    "ar_over_180_series": {
+      "label": "Billed AR > 180 Days",
+      "color": "#009A9B"
+    },
+
+    "retentionAdjustment": {
+      "label": "Retention",
+      "color": "#5F909A"
+    },
+    "billedARDaysActuals": {
+      "label": "Billed AR Days - Actual",
+      "color": "#C70C6F"
+    }
+  },
+  "COLUMN_NAMES": [
+    "ar_0030_series",
+    "ar_3160_series",
+    "ar_6190_series",
+    "ar_91180_series",
+    "ar_over_180_series",
+    "retentionAdjustment"
+  ]
+}

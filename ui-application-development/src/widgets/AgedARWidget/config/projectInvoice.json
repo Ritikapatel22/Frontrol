@@ -1,0 +1,183 @@
+{"columnDefs": 
+  [
+    {
+      "field": "ra_invoice_number",
+      "headerName": "Invoice number",
+      "width": 150,
+      "pinned": "left",
+      "type": ["supressFilter"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "invoice_date",
+      "headerName": "Invoice date",
+      "width": 150,
+      "type": ["dateFormat"]
+    },
+    {
+      "field": "invoice_class",
+      "headerName": "Invoice class",
+      "width": 130,
+      "hide": true,
+      "type": ["supressFilter"]
+    },
+    {
+      "field": "due_date",
+      "headerName": "Due date",
+      "width": 150,
+      "type": ["dateFormat"]
+
+    },
+    {
+      "field": "bill_through_date",
+      "headerName": "Bill through date",
+      "width": 150,
+      "type": ["dateFormat"]
+    },
+    {
+      "field": "invoice_cur_code",
+      "headerName": "Invoice currency",
+      "width": 160,
+      "type": ["supressFilter"]
+    },
+    {
+      "field": "inv_amount",
+      "headerName": "Invoice amount (Pre-tax)(Invoice currency)",
+      "width": 190,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "tax_amount",
+      "headerName": "Tax amount (Invoice currency)",
+      "width": 165,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "gross_amount",
+      "headerName": "Total invoice amount (Invoice currency)",
+      "width": 175,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "payment_received",
+      "headerName": "Payment received (Invoice currency)",
+      "width": 180,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "balance",
+      "headerName": "Balance due (Invoice currency)",
+      "width": 180,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "most_recent_payment_amount",
+      "headerName": "Most recent payment (Invoice currency)",
+      "width": 180,
+      "type": ["currencyColumn"]
+    },
+    {
+      "field": "projfunc_currency_code",
+      "headerName": "Functional currency",
+      "width": 160,
+      "hide": true,
+      "type": ["supressFilter"]
+    },
+    {
+      "field": "projfunc_bill_amount",
+      "headerName": "Invoice amount (Pre-tax)(Functional currency)",
+      "width": 190,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "accounted_tax_amt",
+      "headerName": "Tax amount (Functional currency)",
+      "width": 185,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {    
+      "field": "gross_functional_amount",
+      "headerName": "Total invoice amount (Functional currency)",
+      "width": 175,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "prof_func_payment_received",
+      "headerName": "Payment received (Functional currency)",
+      "width": 180,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "projfunc_balance",
+      "headerName": "Balance due (Functional currency)",
+      "width": 180,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "projfunc_most_recent_payment",
+      "headerName": "Most recent payment (Functional currency)",
+      "width": 180,
+      "type": ["currencyColumn"]
+    },
+    {
+      "field": "retention_amount",
+      "headerName": "Retention",
+      "width": 180,
+      "type": ["currencyColumn","totalColumn"]
+    },
+    {
+      "field": "most_recent_payment_date",
+      "headerName": "Most recent payment date",
+      "width": 200,
+      "type": ["dateFormat"],
+      "hide": true    
+    },
+    {
+      "field": "most_recent_receipt_number",
+      "headerName": "Most recent receipt number",
+      "width": 200,
+      "hide": true,
+      "type": ["supressFilter"]
+    },
+    {
+      "field": "age_days",
+      "headerName": "Days outstanding",
+      "width": 160,
+      "type": ["numberColumn"]
+    },
+    {
+      "field": "aging_buckets",
+      "headerName": "Aging buckets",
+      "width": 215,
+      "type": ["supressFilter"]
+    },
+    {
+      "field": "gl_period_name",
+      "headerName": "GL period (of invoice)",
+      "width": 215,
+      "hide": true,
+      "type": ["supressFilter"]
+    },
+    {
+      "field": "gl_date",
+      "headerName": "GL date (of invoice)",
+      "width": 215,
+      "type": ["dateFormat"],
+      "hide": true
+    }  
+  ],
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true, 
+    "resizable": true,
+    "sortable": true,
+    "menuTabs": ["generalMenuTab"]
+  },
+  "enableRangeSelection": true,
+  "enableColumnMoving": false,
+  "defaultExcelExportParams": {
+    "fileName": "Aged AR trend",
+    "sheetName": "Invoices"
+  }
+  
+}

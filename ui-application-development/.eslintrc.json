@@ -1,0 +1,18 @@
+{
+  "extends": [
+   
+  ],
+  "plugins": [],
+  "rules": {
+    
+  },
+  "parserOptions": {
+   
+  },
+  "env": {
+    
+  },
+  "settings": {
+    
+  }
+}

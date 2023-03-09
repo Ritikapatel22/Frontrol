@@ -1,0 +1,219 @@
+{
+  "Data": {
+    "AcmTaskResource.portfolioLevelWeekCost": [
+      {
+        "project_id": 2685600,
+        "person_id": null,
+        "supplier_id": null,
+        "project_number": "60194269",
+        "project_name": "Lewisham Diffusion Tubes",
+        "resource_name": "",
+        "row_type": "P",
+        "periodSchema": [
+          {
+            "period_name": "22-Apr-22"
+          },
+          {
+            "period_name": "29-Apr-22"
+          },
+          {
+            "period_name": "06-May-22"
+          },
+          {
+            "period_name": "13-May-22"
+          },
+          {
+            "period_name": "20-May-22"
+          }
+        ]
+      },
+      {
+        "project_id": 2685600,
+        "task_id": 14147833,
+        "person_id": 1,
+        "supplier_id": 2366799,
+        "project_number": "60194269",
+        "project_name": "Lewisham Diffusion Tubes",
+        "resource_name": "Suresh",
+        "row_type": "R",
+        "prior_week_hours": "36.7",
+        "hours_period_1": 25,
+        "hours_period_2": 25,
+        "hours_period_3": 25,
+        "hours_period_4": 25,
+        "hours_period_5": 25,
+        "itd_hours": "36.7",
+        "prior_week_fbc": "0",
+        "cost_period_1": 25,
+        "cost_period_2": 25,
+        "cost_period_3": 25,
+        "cost_period_4": 25,
+        "cost_period_5": 25,
+        "itd_fully_burdened_cost": "0",
+        "itd_odc_burdened_cost": "0",
+        "per_spent_cost": "0",
+        "resource_type": "Person"
+      },
+      {
+        "project_id": 2685600,
+        "task_id": 14147833,
+        "project_number": "60194269",
+        "project_name": "Lewisham Diffusion Tubes",
+        "resource_name": "Staff1",
+        "row_type": "R",
+        "prior_week_hours": "36.7",
+        "hours_period_1": 25,
+        "hours_period_2": 25,
+        "hours_period_3": 25,
+        "hours_period_4": 25,
+        "hours_period_5": 25,
+        "itd_hours": "36.7",
+        "prior_week_fbc": "0",
+        "cost_period_1": 25,
+        "cost_period_2": 25,
+        "cost_period_3": 25,
+        "cost_period_4": 25,
+        "cost_period_5": 25,
+        "itd_fully_burdened_cost": "0",
+        "itd_odc_burdened_cost": "0",
+        "per_spent_cost": "0",
+        "resource_type": "Supplier"
+      },
+      {
+        "project_id": 2685600,
+        "task_id": 14147833,
+        "person_id": null,
+        "supplier_id": 2366799,
+        "project_number": "60194269",
+        "project_name": "Lewisham Diffusion Tubes",
+        "resource_name": "Staff2",
+        "row_type": "R",
+        "prior_week_hours": "36.7",
+        "hours_period_1": 25,
+        "hours_period_2": 25,
+        "hours_period_3": 25,
+        "hours_period_4": 25,
+        "hours_period_5": 25,
+        "itd_hours": "36.7",
+        "prior_week_fbc": "0",
+        "cost_period_1": 25,
+        "cost_period_2": 25,
+        "cost_period_3": 25,
+        "cost_period_4": 25,
+        "cost_period_5": 25,
+        "itd_fully_burdened_cost": "0",
+        "itd_odc_burdened_cost": "0",
+        "per_spent_cost": "0",
+        "resource_type": "Supplier"
+      },
+
+      {
+        "project_id": 2685601,
+        "person_id": null,
+        "supplier_id": null,
+        "project_number": "60489918",
+        "project_name": "DFAT Document Review",
+        "resource_name": "",
+        "row_type": "P",
+        "periodSchema": [
+          {
+            "period_name": "22-Apr-22"
+          },
+          {
+            "period_name": "29-Apr-22"
+          },
+          {
+            "period_name": "06-May-22"
+          },
+          {
+            "period_name": "13-May-22"
+          },
+          {
+            "period_name": "20-May-22"
+          }
+        ]
+      },
+      {
+        "project_id": 2685601,
+        "task_id": 14147833,
+        "person_id": 1,
+        "supplier_id": 2366799,
+        "project_number": "60489918",
+        "project_name": "DFAT Document Review",
+        "resource_name": "Sam",
+        "row_type": "R",
+        "prior_week_hours": "36.7",
+        "hours_period_1": 25,
+        "hours_period_2": 25,
+        "hours_period_3": 25,
+        "hours_period_4": 25,
+        "hours_period_5": 25,
+        "itd_hours": "36.7",
+        "prior_week_fbc": "0",
+        "cost_period_1": 25,
+        "cost_period_2": 25,
+        "cost_period_3": 25,
+        "cost_period_4": 25,
+        "cost_period_5": 25,
+        "itd_fully_burdened_cost": "0",
+        "itd_odc_burdened_cost": "0",
+        "per_spent_cost": "0",
+        "resource_type": "Person"
+      },
+      {
+        "project_id": 2685601,
+        "task_id": 14147833,
+        "person_id": null,
+        "supplier_id": 2366799,
+        "project_number": "60489918",
+        "project_name": "DFAT Document Review",
+        "resource_name": "Staff3",
+        "row_type": "R",
+        "prior_week_hours": "36.7",
+        "hours_period_1": 25,
+        "hours_period_2": 25,
+        "hours_period_3": 25,
+        "hours_period_4": 25,
+        "hours_period_5": 25,
+        "itd_hours": "36.7",
+        "prior_week_fbc": "0",
+        "cost_period_1": 25,
+        "cost_period_2": 25,
+        "cost_period_3": 25,
+        "cost_period_4": 25,
+        "cost_period_5": 25,
+        "itd_fully_burdened_cost": "0",
+        "itd_odc_burdened_cost": "0",
+        "per_spent_cost": "0",
+        "resource_type": "Supplier"
+      },
+      {
+        "project_id": 2685601,
+        "task_id": 14147833,
+        "person_id": null,
+        "supplier_id": 2366799,
+        "project_number": "60489918",
+        "project_name": "DFAT Document Review",
+        "resource_name": "Staff4",
+        "row_type": "R",
+        "prior_week_hours": "36.7",
+        "hours_period_1": 25,
+        "hours_period_2": 25,
+        "hours_period_3": 25,
+        "hours_period_4": 25,
+        "hours_period_5": 25,
+        "itd_hours": "36.7",
+        "prior_week_fbc": "0",
+        "cost_period_1": 25,
+        "cost_period_2": 25,
+        "cost_period_3": 25,
+        "cost_period_4": 25,
+        "cost_period_5": 25,
+        "itd_fully_burdened_cost": "0",
+        "itd_odc_burdened_cost": "0",
+        "per_spent_cost": "0",
+        "resource_type": "Supplier"
+      }
+    ]
+  }
+}

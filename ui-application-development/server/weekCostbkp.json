@@ -1,0 +1,76 @@
+{
+  "data": {
+    "weekCost": [
+      {
+        "hierarchy": ["60489918 (DFAT Document Review)"] ,
+        "project_number":"60489918","project_name": "DFAT Document Review", "project_id": "1234",
+        "wbs_level": 0 
+      },
+      {
+        "hierarchy": ["60489918 (DFAT Document Review)", "Ranft, Serina"],
+        "itd_priorWeek": 190, "itd_week1": 12, "itd_week2": 14, "itd_week3": 0, "itd_week4": 12, "itd_week5": 10,
+        "itd_hours": 238,
+        "itd_full_priorWeek": 32689, "itd_full_week1": 2064.6, "itd_full_week2": 2408.7, "itd_full_week3": 0, 
+        "itd_full_week4": 2064.6, "itd_full_week5": 1720.5,  "itd_full_hours": 40947.9, "itd_odc": 0,
+        "itd_total_cost": 40947.9, "avg_cost_rate": 172.6, "per_spent_cost": 0,
+        "project_number":"60489918","project_name": "DFAT Document Review","resource": "Ranft, Serina",
+        "row_type": "R"
+      },
+      {
+        "hierarchy": ["60489918 (DFAT Document Review)",  "Orellana, Kelly M"],
+        "itd_priorWeek": 165, "itd_week1": 2, "itd_week2": 4, "itd_week3": 4.5, "itd_week4": 4.25, "itd_week5": 2.75,
+        "itd_hours": 184,
+        "itd_full_priorWeek": 28646.33, "itd_full_week1": 344.1, "itd_full_week2": 774.23, "itd_full_week3": 774.23, 
+        "itd_full_week4":731.21, "itd_full_week5":473.14,  "itd_full_hours": 31743.23, "itd_odc": 0,
+        "itd_total_cost": 31743.33, "avg_cost_rate":  172.6, "per_spent_cost": 0,
+        "project_number":"60489918","project_name": "DFAT Document Review","resource": "Orellana, Kelly M",
+        "row_type": "R"
+      },
+      {
+        "hierarchy": ["60489918 (DFAT Document Review)", "Gohr, Dorian"],
+        "itd_priorWeek": 81, "itd_week1": 6, "itd_week2": 8, "itd_week3": 13, "itd_week4": 1, "itd_week5": 4,
+        "itd_hours": 113,
+        "itd_full_priorWeek": 13936, "itd_full_week1": 1032, "itd_full_week2": 1376, "itd_full_week3": 2236, 
+        "itd_full_week4": 172, "itd_full_week5": 688,  "itd_full_hours": 19441, "itd_odc": 0,
+        "itd_total_cost": 19441, "avg_cost_rate":  172.6, "per_spent_cost": 0,
+        "project_number":"60489918","project_name": "DFAT Document Review","resource": "Gohr, Dorian",
+        "row_type": "R"
+      },
+      {
+        "hierarchy": ["60249654 (The NACC Project)"],
+        "project_number":"60249654","project_name": "The NACC Project", "project_id": "1235",
+        "wbs_level": 0 
+      },
+      {
+        "hierarchy": ["60249654 (The NACC Project)", "Jones, Gemma"],
+        "itd_priorWeek": 100, "itd_week1": 0, "itd_week2": 2, "itd_week3": 2, "itd_week4": 11, "itd_week5": 10,
+        "itd_hours": 115,
+        "itd_full_priorWeek": 14404, "itd_full_week1": 0, "itd_full_week2": 286, "itd_full_week3": 286, 
+        "itd_full_week4": 1576, "itd_full_week5": 0,  "itd_full_hours": 16554, "itd_odc": 0,
+        "itd_total_cost": 16554, "avg_cost_rate":  143.6, "per_spent_cost": 0,
+        "project_number":"60249654","project_name": "The NACC Project","resource": "Jones, Gemma",
+        "row_type": "R"
+      },
+      {
+        "hierarchy": ["60249654 (The NACC Project)", "Kovaliova, Julia"],
+        "itd_priorWeek": 47, "itd_week1": 0, "itd_week2": 1, "itd_week3": 2, "itd_week4": 12, "itd_week5": 10,
+        "itd_hours": 49,
+        "itd_full_priorWeek": 6736, "itd_full_week1": 0, "itd_full_week2": 143, "itd_full_week3": 71, 
+        "itd_full_week4": 0, "itd_full_week5": 71,  "itd_full_hours": 7023, "itd_odc": 0,
+        "itd_total_cost": 7023.17, "avg_cost_rate":  143.6, "per_spent_cost": 0,
+        "project_number":"60249654","project_name": "The NACC Project","resource": "Kovaliova, Julia",
+        "row_type": "R"
+      },
+      {
+        "hierarchy": ["60249654 (The NACC Project)", "Butt, Robert (Rob)"],
+        "itd_priorWeek": 5, "itd_week1": 0, "itd_week2": 0, "itd_week3": 2, "itd_week4": 14, "itd_week5": 11,
+        "itd_hours": 5,
+        "itd_full_priorWeek": 71, "itd_full_week1": 0, "itd_full_week2": 14, "itd_full_week3": 0, 
+        "itd_full_week4": 12, "itd_full_week5": 10,  "itd_full_hours": 238, "itd_odc": 0,
+        "itd_total_cost": 71, "avg_cost_rate": 143.6, "per_spent_cost": 0,
+        "project_number":"60249654","project_name": "The NACC Project","resource": "Butt, Robert (Rob)",
+        "row_type": "R"
+      }
+    ]
+  }
+}

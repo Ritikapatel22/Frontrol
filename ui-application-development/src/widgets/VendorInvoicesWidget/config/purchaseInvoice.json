@@ -1,0 +1,133 @@
+{
+    "columnDefs": [
+      {
+        "field": "invoice_date",
+        "headerName": "Invoice date",
+        "width": 150,
+        "pinned": "left",
+        "type": ["dateFormat"]
+      },
+      {
+        "field": "po_number",
+        "headerName": "PO #",
+        "width": 100,
+        "type": "textColumnSingleFilter",
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "supplier_name",
+        "headerName": "Supplier name",
+        "width": 250,
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "supplier_number",
+        "headerName": "Supplier number",
+        "type": "textColumnSingleFilter",
+        "hide":true
+      },
+      {
+        "field": "invoice_number",
+        "headerName": "Invoice #",
+        "type": "textColumnSingleFilter",
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "pfc_value_pre_tax",
+        "headerName": "Invoice value - Pre-tax (functional currency)",
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "pfc_value_tax",
+        "headerName": "Invoice value - Tax (functional currency)",
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "pfc_value_post_tax",
+        "headerName": "Invoice value - Post tax (functional currency)",
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "task_number",
+        "headerName": "Task number",
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "task_name",
+        "headerName": "Task name",
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "costed_in_week",
+        "headerName": "Costed in week ending",
+        "type": ["dateFormat"]
+      },
+      {
+        "field": "invoice_comment",
+        "headerName": "Invoice comment",
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "payment_status",
+        "headerName": "Payment status",
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "payment_date",
+        "headerName": "Payment date",
+        "type": ["dateFormat"]
+      },
+      {
+        "field": "inv_currency_code",
+        "headerName": "Invoice currency",
+        "type": ["textColumnSingleFilter"],
+        "hide":true
+      },
+      {
+        "field": "inv_value_pre_tax",
+        "headerName": "Invoice value - Pre tax (invoice currency)",
+        "type": ["currencyColumn"],
+        "hide":true
+      },
+      {
+        "field": "inv_value_tax",
+        "headerName": "Invoice value - Tax (invoice currency)",
+        "type": ["currencyColumn"],
+        "hide":true
+      },
+      {
+        "field": "inv_value_post_tax",
+        "headerName": "Invoice value - Post tax (invoice currency)",
+        "type": ["currencyColumn"],
+        "hide":true
+      },
+      {
+        "field": "project_number",
+        "headerName": "Project number",
+        "width": 150,
+        "type": [
+            "textColumnSingleFilter","linkType"
+        ],
+        "cellClass": "acm-hyperlink"
+    },
+    {
+        "field": "project_name",
+        "headerName": "Project name",
+        "width": 220,
+        "type": ["textColumnSingleFilter","linkType"],
+        "cellClass": "acm-hyperlink"
+    }
+    ],
+    "defaultColDef": {
+      "wrapHeaderText": true,
+      "autoHeaderHeight": true, 
+      "sortable": true,
+      "resizable": true,
+      "menuTabs": ["filterMenuTab", "generalMenuTab"]
+    },
+    "enableRangeSelection": true,
+    "defaultExcelExportParams": {
+      "fileName": "Supplier invoices",
+      "sheetName": "Purchase invoice"
+    }
+  }

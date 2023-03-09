@@ -1,0 +1,23 @@
+[
+  {
+    "person_id": "1",
+    "employee_number": "10001",
+    "first_name": "Tom",
+    "last_name": "Jones",
+    "start_date": "2019-10-18"
+  },
+  {
+    "person_id": "2",
+    "employee_number": "10002",
+    "first_name": "John",
+    "last_name": "Smith",
+    "start_date": "2010-10-21"
+  },
+  {
+    "person_id": "3",
+    "employee_number": "10003",
+    "first_name": "Mark",
+    "last_name": "Twain",
+    "start_date": "2016-01-18"
+  }
+]

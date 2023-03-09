@@ -1,0 +1,138 @@
+{
+    "columnDefs": [
+        {
+            "field": "project_number",
+            "headerName": "Project number",
+            "width:": 150,
+            "pinned": "left",
+            "type": ["supressFilter","linkType"],
+            "cellClass": "acm-hyperlink"
+        },
+        {
+            "field": "project_name",
+            "headerName": "Project name",
+            "width:": 220,
+            "type": ["supressFilter","linkType"],
+            "cellClass": "acm-hyperlink"
+        },
+        {
+            "field": "project_func_currency_code",
+            "headerName": "Currency",
+            "width": 160,
+            "type": "supressFilter"
+          },
+        {
+            "field": "ar_0030",
+            "headerName": "Billed AR 0-30",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "ar_3160",
+            "headerName": "Billed AR 31-60",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "ar_6190",
+            "headerName": "Billed AR 61-90",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "billed_ar_over_90_days",
+            "headerName": "Billed AR >90",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "retention",
+            "headerName": "Retention",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "ar_total",
+            "headerName": "Billed AR",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "unbilled_rec_0030",
+            "headerName": "Unbilled AR 0-30",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "unbilled_rec_3160",
+            "headerName": "Unbilled AR 31-60",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "unbilled_ar_60_days",
+            "headerName": "Unbilled AR >60",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "unbilled_rec_total",
+            "headerName": "Total unbilled",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "biee",
+            "headerName": "BIEE",
+            "width:": 220,
+            "type": [
+                "currencyConversionColumn"
+            ]
+        },
+        {
+            "field": "dso",
+            "headerName": "Project DSO",
+            "width:": 220,
+            "type":["number2DecimalColumn"]
+        }
+    ],
+    "defaultColDef": {
+        "resizable": true,
+        "menuTabs": [
+            "generalMenuTab"
+        ],
+        "sortable": true,
+        "wrapHeaderText": true
+    },
+    "enableRangeSelection": true,
+    "defaultExcelExportParams": {
+        "fileName": "AR & Unbilled",
+        "sheetName": "AR & Unbilled"
+    },
+    "columnTypes": "columnTypesConfig",
+    "sideBar": {
+        "toolPanels": [
+            "sidebarColsConfig"
+        ]
+    }
+}

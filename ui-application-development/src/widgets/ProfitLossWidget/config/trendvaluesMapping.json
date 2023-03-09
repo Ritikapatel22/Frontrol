@@ -1,0 +1,46 @@
+{
+  "COLUMN_NAMES": [
+    "approved_cost_budget_series",
+    "forecast_cost_budget_series",
+    "approved_rev_budget_cst_series",
+    "forecast_revenue_budget_series",
+    "actual_cost_series",
+    "actual_margin_series",
+    "actual_gross_revenue_series",
+    "billing_series"
+  ],
+  "SERIES_INFO": {
+    "approved_cost_budget_series": {
+      "label": "Approved cost budget",
+      "color": "#00353E"
+    },
+    "forecast_cost_budget_series": {
+      "label": "Forecast cost budget",
+      "color": "#59A089"
+    },
+    "approved_rev_budget_cst_series": {
+      "label": "Approved revenue budget",
+      "color": "#009A9B"
+    },
+    "forecast_revenue_budget_series": {
+      "label": "Forecast revenue budget",
+      "color": "#CFDFD7"
+    },
+    "actual_cost_series": {
+      "label": "Actual cost",
+      "color": "#BFE1D9"
+    },
+    "actual_margin_series": {
+      "label": "Actual margin",
+      "color": "#AECC53"
+    },
+    "actual_gross_revenue_series": {
+      "label": "Actual gross revenue",
+      "color": "#D54993"
+    },
+    "billing_series": {
+      "label": "Billing",
+      "color": "#AECC53"
+    }
+  }
+}

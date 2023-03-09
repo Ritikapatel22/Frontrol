@@ -1,0 +1,135 @@
+{
+    "data": {
+        "documents": [
+            {
+                "creation_date": "2022-11-19",
+                "file_name": "Example File10.pdf",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "description": "description from CLM System",
+                "category": "CLM Record",
+                "location": "CLM",
+                "file_type": "PDF",
+                "file_size": "4.1 MB",
+                "associated_change": "CO1 - Example Change Order Name",
+                "project_number": 60003761,
+                "project_name": "Example Project in a Portfolio 2"
+            },
+            {
+                "creation_date": "2022-06-20",
+                "file_name": "Example File9.pdf",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "description": "Purchase Order ABCDEF",
+                "category": "Funding Change Doc",
+                "location": "Oracle",
+                "file_type": "PDF",
+                "file_size": "747 KB",
+                "associated_change": "CO1 - Example Change Order Name",
+                "project_number": 60003761,
+                "project_name": "Example Project in a Portfolio 2"
+            },
+            {
+                "creation_date": "2021-05-09",
+                "file_name": "Example File8.xlsx",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "category": "EAC Supporting Documentation",
+                "location": "Oracle",
+                "file_type": "XLSX",
+                "file_size": "13.7 MB",
+                "project_number": 60565794,
+                "project_name": "Example Project in a Portfolio 1"
+            },
+            {
+                "creation_date": "2021-03-10",
+                "file_name": "Subbie-Invoice.pdf",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "description": "Invoice# 39028347",
+                "category": "AR Invoice",
+                "location": "ABC/AGIS",
+                "file_type": "PDF",
+                "file_size": "12.2 MB",
+                "project_number": 60596336,
+                "project_name": "Example Project in a Portfolio 2"
+            },
+            {
+                "creation_date": "2021-03-10",
+                "file_name": "Invoice# 39028347",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "description": "Invoice# 39028347",
+                "category": "AR Invoice",
+                "location": "ABC/AGIS",
+                "file_type": "PDF",
+                "file_size": "12.2 MB",
+                "project_number": 60003761,
+                "project_name": "Example Project in a Portfolio 2"
+            },
+            {
+                "creation_date": "2020-03-15",
+                "file_name": "Invoice# 39026516",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "description": "Invoice# 39026516",
+                "category": "AR Invoice",
+                "location": "ABC/AGIS",
+                "file_type": "PDF",
+                "file_size": "9.8 MB",
+                "project_number": 60003761,
+                "project_name": "Example Project in a Portfolio 2"
+            },
+            {
+                "creation_date": "2019-04-25",
+                "file_name": "Invoice# 39024400",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "description": "Invoice# 39024400",
+                "category": "AR Invoice",
+                "location": "ABC/AGIS",
+                "file_type": "PDF",
+                "file_size": "13.4 MB",
+                "project_number": 60003761,
+                "project_name": "Example Project in a Portfolio 2"
+            },
+            {
+                "creation_date": "2020-03-15",
+                "file_name": "Example File4.xlsx",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "category": "EAC Supporting Documentation",
+                "location": "Oracle",
+                "file_type": "XLSX",
+                "file_size": "9.8 MB",
+                "project_number": 60003761,
+                "project_name": "Example Project in a Portfolio 2"
+            },
+            {
+                "creation_date": "2019-04-25",
+                "file_name": "Example File3.doc",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "category": "Change",
+                "location": "ePM Archive",
+                "file_type": "DOC",
+                "file_size": "13.4 MB",
+                "project_number": 60565794,
+                "project_name": "Example Project in a Portfolio 1"
+            },
+            {
+                "creation_date": "2018-09-22",
+                "file_name": "Example File2.pdf",
+                "file_url": "",
+                "category": "Project Attachment",
+                "location": "ePM Archive",
+                "file_type": "PDF",
+                "file_size": "5 MB",
+                "project_number": 60565794,
+                "project_name": "Example Project in a Portfolio 1"
+            },
+            {
+                "creation_date": "2018-04-27",
+                "file_name": "Example File1.pdf",
+                "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+                "category": "Agreement Attachment",
+                "location": "ePM Archive",
+                "file_type": "PDF",
+                "file_size": "17.1 MB",
+                "project_number": 60565794,
+                "project_name": "Example Project in a Portfolio 1"
+            }
+        ]
+    }
+}

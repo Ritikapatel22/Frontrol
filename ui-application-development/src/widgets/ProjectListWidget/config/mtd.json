@@ -1,0 +1,156 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "width": 150,
+      "pinned": "left",
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_func_currency_code",
+      "headerName": "Currency",
+      "width": 160,
+      "type": "supressFilter"
+    },
+    {
+      "field": "gr_mtd",
+      "headerName": "GR - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "subs_mtd",
+      "headerName": "Subs - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "odc_mtd",
+      "headerName": "ODC - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nsr_mtd",
+      "headerName": "NSR - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_mtd",
+      "headerName": "GM - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_percent_of_nsr_mtd",
+      "headerName": "GM % of NSR - MTD",
+      "width": 165,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "total_costs_mtd",
+      "headerName": "Total costs - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_mtd",
+      "headerName": "NM - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_percent_of_nsr_mtd",
+      "headerName": "NM % of NSR - MTD",
+      "width": 165,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "delta_res_1",
+      "headerName": "Direct labor - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_multiplier_mtd",
+      "headerName": "Direct labor multiplier - MTD",
+      "width": 220,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "delta_labor_hrs",
+      "headerName": "Direct labor hours - MTD",
+      "width": 190,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "delta_res_2",
+      "headerName": "Fringe - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "delta_res_3",
+      "headerName": "Overhead - MTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    }
+  ],
+  "defaultColDef": {
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "sortable": true,
+    "wrapHeaderText": true
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "MTD"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig"
+    ]
+  }
+}

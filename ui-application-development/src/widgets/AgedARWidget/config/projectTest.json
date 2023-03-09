@@ -1,0 +1,11 @@
+{
+  "columnDefs": [{
+    "field": "project_number",
+    "text": "Project Number"
+  }],
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Aged AR Tend",
+    "sheetName": "Projects"
+  }
+}

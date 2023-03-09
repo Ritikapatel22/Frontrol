@@ -1,0 +1,128 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "width": 150,
+      "pinned": "left",
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_func_currency_code",
+      "headerName": "Currency",
+      "width": 160,
+      "type": "supressFilter"
+    },
+    {
+      "field": "project_status",
+      "headerName": "Project status",
+      "width": 220,
+      "type": "supressFilter"
+    },
+    {
+      "field": "funding",
+      "headerName": "Contract value",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "cost_spent",
+      "headerName": "% Spent - cost",
+      "width": 160,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "cpi",
+      "headerName": "CPI",
+      "width": 100,
+      "type": ["number2DecimalColumn"]
+    },
+    {
+      "field": "spi",
+      "headerName": "SPI",
+      "width": 120,
+      "type": ["number2DecimalColumn"]
+    },
+    {
+      "field": "ar_total",
+      "headerName": "Billed AR",
+      "width": 160,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "unbilled_rec_total",
+      "headerName": "Unbilled AR",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_mtd",
+      "headerName": "GM (MTD)",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "negative_etc_calc",
+      "headerName": "Negative ETC",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "expired_eac_date",
+      "headerName": "Expired EAC",
+      "width": 140,
+      "type": [        
+        "dateFormat",
+        "eacExpiredColumn"
+      ]
+    },
+    {
+      "field": "forecast_end_date",
+      "headerName": "Expired forecast end date",
+      "width": 220,
+      "type": [        
+        "dateFormat",
+        "forecastEndDateExpiredColumn"
+      ]
+    }
+  ],
+  "defaultColDef": {
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "sortable": true,
+    "wrapHeaderText": true
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "KPIs"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+FROM node
+
+#Token for platform which will be passed via jenkin
+ARG AUTH_TOKEN_PRIVATE_REGISTRY
+
+RUN  mkdir -p /usr/src/app 
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+RUN echo "@frontrolinc:registry=https://npm.pkg.github.com/" > .npmrc
+RUN echo  "//npm.pkg.github.com/:_authToken=$AUTH_TOKEN_PRIVATE_REGISTRY" >> .npmrc  
+RUN npm install 
+RUN rm -f .npmrc
+#RUN npm run build
+EXPOSE 3000
+
+CMD [ "npm", "start"]

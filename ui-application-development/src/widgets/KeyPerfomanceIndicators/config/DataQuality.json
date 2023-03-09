@@ -1,0 +1,56 @@
+{
+  "columnDefs": [
+    {
+      "field": "",
+      "headerName": "",
+      "width": 20,
+      "tooltipField": "description",
+      "pinned": "left",
+      "resizable": false
+    },
+    {
+      "field": "display_name",
+      "headerName": "KPI",
+      "width": 180,
+      "pinned": "left"
+    },
+    {
+      "field": "kpi_indicator",
+      "headerName": "",
+      "width": 20,
+      "pinned": "left",
+      "tooltipField": "kpi_tooltip",
+      "resizable": false
+    },
+    {
+      "field": "current_value",
+      "headerName": "Current",
+      "width": 150,
+      "type": ["dynamicColumnFormat"]
+    },
+    {
+      "field": "message",
+      "headerName": "Message",
+      "width": 250,
+      "type": ["textColumnSingleFilter"]
+    }
+  ],
+  "suppressDragLeaveHidesColumns": true,
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true,
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "suppressMovable": true
+  },
+  "enableRangeSelection": true,
+  "enableColumnMoving": false,
+  "getMainMenuItems": "getMainMenuItems",
+  "defaultExcelExportParams": {
+    "fileName": "KPIs",
+    "sheetName": "Data quality"
+  },
+  "columnTypes": "columnTypesConfig"
+}

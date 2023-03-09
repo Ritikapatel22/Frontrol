@@ -1,0 +1,91 @@
+{"columnDefs": [
+    {
+      "field": "invoice_number",
+      "headerName": "Invoice",
+      "width": 150,
+      "pinned": "left"
+    },
+    {
+      "field": "invoice_date",
+      "headerName": "Invoice Date",
+      "width": 130,
+      "type": ["dateFormat"]
+    },
+    {
+      "field": "invoice_date",
+      "headerName": "Due date",
+      "width": 130,
+      "type": ["dateFormat"]
+    },
+    {
+      "field": "bill_through_date",
+      "headerName": "Bill thru date",
+      "width": 130,
+      "type": ["dateFormat"]
+    },
+    {
+      "field": "days_outstanding",
+      "headerName": "Age (days)",
+      "width": 215
+    },
+    {
+      "field": "payment_received",
+      "headerName": "Paid",
+      "width": 215
+    },
+    {
+      "field": "project_status",
+      "headerName": "Status",
+      "width": 215
+    },
+    {
+      "field": "project_status",
+      "headerName": "Follow up",
+      "width": 215
+    },
+    {
+      "field": "invoice_currency",
+      "headerName": "Currency",
+      "width": 135
+    },
+    {
+      "field": "tax_amount",
+      "headerName": "Tax",
+      "width": 180,
+      "type": ["numberColumn"]
+    },
+    {
+      "field": "total_invoice_amount",
+      "headerName": "Gross amount",
+      "width": 200,
+      "type": ["numberColumn"]
+    },
+
+    {
+      "field": "retention",
+      "headerName": "Retention",
+      "width": 180,
+      "type": ["numberColumn"]
+    },
+
+    {
+      "field": "total_invoice_amount",
+      "headerName": "Balance",
+      "width": 200,
+      "type": ["numberColumn"]
+    }
+  ],
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true, 
+    "resizable": true,
+    "menuTabs": ["generalMenuTab"]
+  },
+  "enableRangeSelection": true,
+  "enableColumnMoving": false,
+  "defaultExcelExportParams": {
+    "fileName": "Billing & AR details",
+    "sheetName": "Invoices"
+  }
+  
+}

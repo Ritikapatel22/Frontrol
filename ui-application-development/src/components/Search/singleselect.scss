@@ -1,0 +1,22 @@
+
+
+.lazy-select-input {
+    .dropDownBtn{
+        background-color: rgb(255 255 255 / 1);
+        border-color: transparent;
+        align-items: center;
+        height: 36px;
+        width: 100%;
+    }
+    .dropdownbtn-container{
+        width: 20rem;
+        min-width: 17rem;
+        padding: 10px;
+    }
+    .dropdown-search-result-container {
+        box-shadow: none;
+    }
+    .search-result-container.dropdown-search-result-container {
+        position: relative;
+    }
+}

@@ -1,0 +1,1 @@
+export const SELECTED_VIEW = "SELECTED_VIEW";

@@ -1,0 +1,64 @@
+[
+  {
+    "ObjectName": "ACM_ORGANIZATIONS",
+    "ObjectDisplayName": "Organizations",
+    "Query": "http://20.106.179.244/dev/fakedata/AdminConfigOrganizations.json",
+    "Columns": [
+      {
+        "ColumnName": "org_id",
+        "Filter": "N",
+        "ColumnDisplayName": "Organization ID",
+        "Type": "number"
+      },
+      {
+        "ColumnName": "org_name",
+        "Filter": "Y",
+        "ColumnDisplayName": "Organization name",
+        "Type": "text"
+      },
+      {
+        "ColumnName": "location",
+        "Filter": "Y",
+        "ColumnDisplayName": "Location",
+        "Type": "text"
+      }
+    ]
+  },
+  {
+    "ObjectName": "ACM_PERSONS",
+    "ObjectDisplayName": "Persons",
+    "Query": "http://20.106.179.244/dev/fakedata/AdminConfigPersons.json",
+    "Columns": [
+      {
+        "ColumnName": "person_id",
+        "Filter": "N",
+        "ColumnDisplayName": "Person ID",
+        "Type": "number"
+      },
+      {
+        "ColumnName": "employee_number",
+        "Filter": "Y",
+        "ColumnDisplayName": "Employee number",
+        "Type": "number"
+      },
+      {
+        "ColumnName": "first_name",
+        "Filter": "Y",
+        "ColumnDisplayName": "First name",
+        "Type": "text"
+      },
+      {
+        "ColumnName": "last_name",
+        "Filter": "Y",
+        "ColumnDisplayName": "Last name",
+        "Type": "text"
+      },
+      {
+        "ColumnName": "start_date",
+        "Filter": "N",
+        "ColumnDisplay_Name": "Start date",
+        "Type": "date"
+      }
+    ]
+  }
+]

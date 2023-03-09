@@ -1,0 +1,9 @@
+.login-bg {
+    background-image: url("../../../../src/assets/Images/login-bg.png");
+}
+
+@media (max-height: 819px) {
+    .bottom-text {
+        position: static !important ;
+    }
+}

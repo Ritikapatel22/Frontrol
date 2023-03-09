@@ -1,0 +1,79 @@
+{
+  "columnDefs": [
+    {
+      "field": "",
+      "headerName": "",
+      "width": 20,
+      "tooltipField": "description",
+      "pinned": "left",
+      "resizable": false
+    },
+    {
+      "field": "display_name",
+      "headerName": "KPI",
+      "width": 90,
+      "pinned": "left"
+    },
+    {
+      "field": "kpi_indicator",
+      "headerName": "",
+      "width": 20,
+      "tooltipField": "kpi_tooltip",
+      "resizable": false
+    },
+    {
+      "field": "current_value",
+      "headerName": "Current",
+      "width": 130,
+      "type": ["dynamicColumnFormat"]
+    },
+    {
+      "field": "kpi_updown",
+      "headerName": "",
+      "width": 20,
+      "resizable": false
+    },
+    {
+      "field": "prior_value",
+      "headerName": "Last month",
+      "width": 130,
+      "type": ["dynamicColumnFormat"]
+    },
+    {
+      "field": "approved_budget_value",
+      "headerName": "Approved budget",
+      "width": 120,
+      "type": ["dynamicColumnFormat"]
+    },
+    {
+      "field": "eac_forecast_value",
+      "headerName": "EAC / Forecast",
+      "width": 120,
+      "type": ["dynamicColumnFormat"]
+    },
+    {
+      "field": "message",
+      "headerName": "Message",
+      "width": 270,
+      "type": ["textColumnSingleFilter"]
+    }
+  ],
+  "suppressDragLeaveHidesColumns": true,
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true,
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "suppressMovable": true
+  },
+  "enableRangeSelection": true,
+  "enableColumnMoving": false,
+  "getMainMenuItems": "getMainMenuItems",
+  "defaultExcelExportParams": {
+    "fileName": "KPIs",
+    "sheetName": "Financial"
+  },
+  "columnTypes": "columnTypesConfig"
+}

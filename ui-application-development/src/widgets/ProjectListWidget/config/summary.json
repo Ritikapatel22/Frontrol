@@ -1,0 +1,194 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "width": 150,
+      "pinned": "left",
+      "type": [
+        "textColumnSingleFilter",
+        "linkType"
+      ],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      "type": [
+        "textColumnSingleFilter",
+        "linkType"
+      ],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_func_currency_code",
+      "headerName": "Currency",
+      "width": 160,
+      "type": "textColumnSingleFilter"
+    },
+    {
+      "field": "customer_name",
+      "headerName": "Client name",
+      "width": 310,
+      "type": "textColumnSingleFilter"
+    },
+    {
+      "field": "at_comp_plan1_revenue",
+      "headerName": "Approved revenue budget",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "funding_rar",
+      "headerName": "RAR funding",
+      "width": 160,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan2_revenue",
+      "headerName": "Forecast revenue budget",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gr_itd",
+      "headerName": "GR - ITD",
+      "width": 160,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "billed_itd",
+      "headerName": "Billed ITD",
+      "width": 160,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_cost",
+      "headerName": "Approved cost budget",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan2_cost",
+      "headerName": "Forecast cost budget",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "total_costs_itd",
+      "headerName": "Total costs - ITD",
+      "width": 145,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "etc",
+      "headerName": "ETC",
+      "width": 135,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "percent_costs_to_date",
+      "headerName": "% Spent - cost",
+      "width": 140,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "percent_biiled_to_date",
+      "headerName": "% Billed to date",
+      "width": 140,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "gain_lost_margin_ytd",
+      "headerName": "Margin loss/gain YTD",
+      "width": 175,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gain_lost_margin_itd",
+      "headerName": "Margin loss/gain ITD",
+      "width": 175,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "ar_total",
+      "headerName": "Billed AR",
+      "width": 145,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "unbilled_rec_total",
+      "headerName": "Total unbilled",
+      "width": 145,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "biee",
+      "headerName": "BIEE",
+      "width": 145,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "project_id",
+      "headerName": "Project id",
+      "width": 310,
+      "hide": true,
+      "suppressColumnsToolPanel": true
+    }
+  ],
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true,
+    "sortable": true,
+    "resizable": true,
+    "menuTabs": [
+      "filterMenuTab",
+      "generalMenuTab"
+    ]
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "Summary"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig",
+      "sidebarFilterConfig"
+    ]
+  }
+}

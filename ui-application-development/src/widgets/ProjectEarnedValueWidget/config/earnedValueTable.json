@@ -1,0 +1,131 @@
+{
+    "columnDefs": [
+      {
+        "field": "item",
+        "headerName": "Period",
+        "width": 180,
+        "pinned": "left",
+        "type": ["supressFilter"]        
+      },
+      {
+        "field": "Bucket0",
+        "headerName": "Prior periods",
+        "width": 135,    
+        "remoteHeaderNameIdx": 0,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket1",
+        "headerName": "Period 1",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 1,    
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket2",
+        "headerName": "Period 2",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 2,   
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket3",
+        "headerName": "Period 3",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 3,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket4",
+        "headerName": "Period 4",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 4, 
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket5",
+        "headerName": "Period 5",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 5,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket6",
+        "headerName": "Period 6",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 6,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket7",
+        "headerName": "Period 7",
+        "headerHidden": true,
+        "width": 155,
+        "remoteHeaderNameIdx": 7,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket8",
+        "headerName": "Period 8",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 8,     
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket9",
+        "headerName": "Period 9",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 9,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket10",
+        "headerName": "Period 10",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 10,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket11",
+        "headerName": "Period 11",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx": 11,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket12",
+        "headerName": "Period 12",
+        "headerHidden": true,
+        "width": 135,
+        "remoteHeaderNameIdx":12,
+        "type": ["dynamicColumnFormat"]
+      },
+      {
+        "field": "Bucket13",
+        "headerName": "Future periods",
+        "width": 135,
+        "remoteHeaderNameIdx": 13,
+        "type": [
+          "dynamicColumnFormat"
+        ]
+      }
+    ],
+    "suppressDragLeaveHidesColumns": true,
+    "enableRangeSelection": true,
+    "enableColumnMoving":false,
+    "defaultExcelExportParams":{
+      "fileName":"Earned value",
+      "sheetName": "Table",
+      "combinedSheetName": "Earned value"
+    }
+}

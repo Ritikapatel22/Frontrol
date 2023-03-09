@@ -1,0 +1,156 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "width": 150,
+      "pinned": "left",
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_func_currency_code",
+      "headerName": "Currency",
+      "width": 160,
+      "type": "supressFilter"
+    },
+    {
+      "field": "gr_itd",
+      "headerName": "GR - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "subs_itd",
+      "headerName": "Subs - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "odc_itd",
+      "headerName": "ODC - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nsr_itd",
+      "headerName": "NSR - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_itd",
+      "headerName": "GM - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_percent_of_nsr_itd",
+      "headerName": "GM % of NSR - ITD",
+      "width": 160,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "total_costs_itd",
+      "headerName": "Total costs - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_itd",
+      "headerName": "NM - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_percent_of_nsr_itd",
+      "headerName": "NM % of NSR - ITD",
+      "width": 160,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_itd",
+      "headerName": "Direct labor - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_multiplier_itd",
+      "headerName": "Direct labor multiplier - ITD",
+      "width": 220,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_hours_itd",
+      "headerName": "Direct labor hours - ITD",
+      "width": 200,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "fringe_itd",
+      "headerName": "Fringe - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "overhead_itd",
+      "headerName": "Overhead - ITD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    }
+  ],
+  "defaultColDef": {
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "wrapHeaderText": true,
+    "sortable": true
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "ITD"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+
+{
+    "columnDefs": [
+      {
+        "field": "aging",
+        "headerName": "Aging",
+        "width": 240,
+        "type": ["supressFilter"]
+      },
+      {
+        "field": "Accounts receivable",
+        "headerName": "Accounts receivable",
+        "width": 200,
+        "type": ["currencyColumn","totalColumn"]
+      },
+      {
+        "field": "Net unbilled",
+        "headerName": "Net unbilled",
+        "width": 200,
+        "type": ["currencyColumn","totalColumn"]
+      },
+      {
+        "field": "Net receivables",
+        "headerName": "Net receivables",
+        "width": 200,
+        "type": ["currencyColumn","totalColumn"]
+      }
+    ],
+    "suppressDragLeaveHidesColumns": true,
+    "defaultColDef": {
+      "wrapHeaderText": true,
+      "autoHeaderHeight": true,
+      "resizable": true,
+      "menuTabs": ["generalMenuTab"],
+      "suppressMovable": true
+    },
+    "enableRangeSelection": true,
+    "enableColumnMoving":false,
+    "defaultExcelExportParams":{
+      "fileName":"Net receivables",
+      "sheetName": "Summary"
+    }
+  }

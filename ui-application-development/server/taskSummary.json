@@ -1,0 +1,47 @@
+{
+  "data": {
+    "earnedValues": [
+      {
+        "task_name": "", "original_cost_budget": 1067000.000, "approved_changes":204990.00, "total_approved_cost_budget":204990.00,
+        "planned_value":264990.00, "itd_actual":304990.00, "complete":58, "earned_value":20340.00,
+        "schedule_variance":760490.00, "cost_variance":29660.00, "spi":1.01, "cpi":1.05,
+        "tcpi":0.94, "projected_etc":54990.00, "projected_eac":29430.00, "variance_at_completion":254990.00,
+        "project_number":"Project Level","project_name": "DFAT Document Review","project_id": "1234",
+        "wbs_level": 0 
+      },
+      {
+        "task_number":"1","task_name": "Top Task 1", "wbs_level": 1, "original_cost_budget": 1067000.000, "approved_changes":204990.00, "total_approved_cost_budget":204990.00,
+        "planned_value":264990.00, "itd_actual":304990.00, "complete":58, "earned_value":20340.00,
+        "schedule_variance":760490.00, "cost_variance":29660.00, "spi":1.01, "cpi":1.05,
+        "tcpi":0.94, "projected_etc":54990.00, "projected_eac":29430.00, "variance_at_completion":254990.00
+      },
+      {
+        "task_number":"1.1","task_name": "Bottom Task 1.1", "parent_taskId": 2, "taskId": 3, "wbs_level": 2,
+        "original_cost_budget": 1067000.000, "approved_changes":204990.00, "total_approved_cost_budget":204990.00,
+        "planned_value":264990.00, "itd_actual":304990.00, "complete":58, "earned_value":20340.00,
+        "schedule_variance":760490.00, "cost_variance":29660.00, "spi":1.01, "cpi":1.05,
+        "tcpi":0.94, "projected_etc":54990.00, "projected_eac":29430.00, "variance_at_completion":254990.00
+      },
+      {
+          "task_number":"1.2","task_name": "Bottom Task 1.2", "parent_taskId": 2, "taskId": 4, "wbs_level": 2,
+          "original_cost_budget": 1067000.000, "approved_changes":204990.00, "total_approved_cost_budget":204990.00,
+          "planned_value":264990.00, "itd_actual":304990.00, "complete":58, "earned_value":20340.00,
+          "schedule_variance":760490.00, "cost_variance":29660.00, "spi":1.01, "cpi":1.05,
+          "tcpi":0.94, "projected_etc":54990.00, "projected_eac":29430.00, "variance_at_completion":254990.00
+      },
+      {
+        "task_number":"2","task_name": "Top Task 2", "wbs_level": 1, "original_cost_budget": 1067000.000, "approved_changes":204990.00, "total_approved_cost_budget":204990.00,
+        "planned_value":264990.00, "itd_actual":304990.00, "complete":58, "earned_value":20340.00,
+        "schedule_variance":760490.00, "cost_variance":29660.00, "spi":1.01, "cpi":1.05,
+        "tcpi":0.94, "projected_etc":54990.00, "projected_eac":29430.00, "variance_at_completion":254990.00
+      },
+      {
+        "task_number":"2.1","task_name": "Bottom Task 2.1", "parent_taskId": 2, "taskId": 3, "wbs_level": 2,
+        "original_cost_budget": 1067000.000, "approved_changes":204990.00, "total_approved_cost_budget":204990.00,
+        "planned_value":264990.00, "itd_actual":304990.00, "complete":58, "earned_value":20340.00,
+        "schedule_variance":760490.00, "cost_variance":29660.00, "spi":1.01, "cpi":1.05,
+        "tcpi":0.94, "projected_etc":54990.00, "projected_eac":29430.00, "variance_at_completion":254990.00
+      }
+    ]
+  }
+}

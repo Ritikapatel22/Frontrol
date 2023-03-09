@@ -1,0 +1,86 @@
+{
+    "columnDefs": [
+        {
+            "field": "creation_date",
+            "headerName": "Creation date",
+            "width": 150,
+            "pinned": "left",
+            "type": [
+                "dateFormat",
+                "dateFilter"
+            ],
+            "cellClass": "dateType"
+        },
+        {
+            "field": "file_name",
+            "headerName": "File name",
+            "width": 220,
+            "type": "textColumnSingleFilter",
+            "cellClass": "acm-hyperlink"
+        },
+        {
+            "field": "url",
+            "headerName": "File name",
+            "width": 250,
+            "type": "textColumnSingleFilter",
+            "hide": true,
+            "suppressColumnsToolPanel": true,
+            "suppressFiltersToolPanel": true
+        },
+        {
+            "field": "description",
+            "headerName": "Description",
+            "width": 220,
+            "type": "textColumnSingleFilter"
+        },
+        {
+            "field": "category",
+            "headerName": "Category",
+            "width": 220,
+            "type": "textColumnSingleFilter"
+        },
+        {
+            "field": "location",
+            "headerName": "Location",
+            "width": 160,
+            "type": "textColumnSingleFilter"
+        },
+        {
+            "field": "file_size",
+            "headerName": "File size (KB)",
+            "width": 160,
+            "type": ["numberColumn"]
+        },
+        {
+            "field": "project_number",
+            "headerName": "Project number",
+            "width": 150,
+            "type": [
+                "textColumnSingleFilter","linkType"
+            ],
+            "cellClass": "acm-hyperlink"
+        },
+        {
+            "field": "project_name",
+            "headerName": "Project name",
+            "width": 220,
+            "type": ["textColumnSingleFilter","linkType"],
+            "cellClass": "acm-hyperlink"
+        }
+    ],
+    "defaultColDef": {
+        "wrapHeaderText": true,
+        "autoHeaderHeight": true,
+        "sortable": true,
+        "resizable": true,
+        "menuTabs": [
+            "filterMenuTab",
+            "generalMenuTab"
+        ]
+    },
+    "enableRangeSelection": true,
+    "defaultExcelExportParams": {
+        "fileName": "Documents",
+        "sheetName": "Documents"
+    }
+}

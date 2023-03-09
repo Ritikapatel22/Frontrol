@@ -1,0 +1,1457 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "visibleInTabs": [
+        "summary",
+        "kpis",
+        "approved",
+        "ar unbilled",
+        "forecast",
+        "change",
+        "mtd",
+        "ytd",
+        "itd",
+        "keymembers"
+      ],
+      "width": 150,
+      "pinned": "left",
+      "type": [
+        "textColumnSingleFilter",
+        "linkType"
+      ],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      "visibleInTabs": [
+        "summary",
+        "kpis",
+        "ar unbilled",
+        "approved",
+        "forecast",
+        "change",
+        "mtd",
+        "ytd",
+        "itd",
+        "keymembers"
+        
+      ],
+      "type": [
+        "textColumnSingleFilter",
+        "linkType"
+      ],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "key_member_1",
+      "headerName": "Project manager",
+      "width": 160,
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_4",
+      "headerName": "Deputy project manager ",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 160,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_3",
+      "headerName": "Project approver",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_5",
+      "headerName": "Project approver 2",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_6",
+      "headerName": "Lead verifier",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 160,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_2",
+      "headerName": "Project accountant",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_7",
+      "headerName": "Project accountant alternate",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_8",
+      "headerName": "Project biller",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_9",
+      "headerName": "Project controls",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_10",
+      "headerName": "Project manager assistant",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_11",
+      "headerName": "Finance lead ",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_12",
+      "headerName": "Finance lead 2 ",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "key_member_13",
+      "headerName": "Project administrator",
+      "visibleInTabs": [
+        "keymembers"
+      ],
+      "width": 220,
+      " type": "textColumn"
+    },
+    {
+      "field": "gr_ytd",
+      "headerName": "GR-YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "subs_ytd",
+      "headerName": "Subs-YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "odc_ytd",
+      "headerName": "ODC-YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nsr_ytd",
+      "headerName": "NSR-YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_ytd",
+      "headerName": "GM-YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_percent_of_nsr_ytd",
+      "headerName": "GM % of NSR - YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "total_costs_ytd",
+      "headerName": "Total costs - YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_ytd",
+      "headerName": "NM-YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_percent_of_nsr_ytd",
+      "headerName": "NM % of NSR - YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_ytd",
+      "headerName": "Direct labor YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_multiplier_ytd",
+      "headerName": "Direct labor multiplier - YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_hours_ytd",
+      "headerName": "Direct labor hours - YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "fringe_ytd",
+      "headerName": "Fringe - YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "overhead_ytd",
+      "headerName": "Overhead - YTD",
+      "visibleInTabs": [
+        "ytd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_revenue_budget_mtd_change",
+      "headerName": "Approved revenue budget MTD change",
+      "visibleInTabs": [
+        "change"
+      ],
+      "width": 300,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_revenue_mtd_change",
+      "headerName": "Forecast revenue MTD change",
+      "width": 280,
+      "visibleInTabs": [
+        "change"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_nsr_budget_mtd_change",
+      "headerName": "Approved NSR budget MTD change",
+      "width": 280,
+      "visibleInTabs": [
+        "change"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_nsr_mtd_change",
+      "headerName": "Forecast NSR MTD change",
+      "width": 280,
+      "visibleInTabs": [
+        "change"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_gross_margin_mtd_change",
+      "headerName": "Approved gross margin MTD change",
+      "width": 280,
+      "visibleInTabs": [
+        "change"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_gross_margin_mtd_change",
+      "headerName": "Forecast gross margin MTD change",
+      "width": 280,
+      "visibleInTabs": [
+        "change"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_gross_margin_mtd_change_percent_of_nsr_mtd_change",
+      "headerName": "Approved gross margin MTD change % of NSR MTD change",
+      "width": 300,
+      "visibleInTabs": [
+        "change"
+      ],
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "approved_cost_budget_mtd_change",
+      "headerName": "Approved cost budget MTD change",
+      "visibleInTabs": [
+        "change"
+      ],
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_cost_mtd_change",
+      "headerName": "Forecast cost MTD change",
+      "visibleInTabs": [
+        "change"
+      ],
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_net_margin_mtd_change",
+      "headerName": "Approved net margin MTD change",
+      "visibleInTabs": [
+        "change"
+      ],
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_net_margin_mtd_change",
+      "headerName": "Forecast net margin MTD change",
+      "visibleInTabs": [
+        "change"
+      ],
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_net_margin_mtd_change_percent_of_nsr_mtd_change",
+      "headerName": "Approved net margin MTD change % of NSR MTD change",
+      "visibleInTabs": [
+        "change"
+      ],
+      "width": 370,
+      "type": ["percentageColumn"]
+    },
+    {
+      "field": "approved_backlog",
+      "headerName": "Approved backlog",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "customer_name",
+      "headerName": "Client name",
+      "visibleInTabs": [
+        "summary"
+      ],
+      "width": 180,
+      "type": "textColumnSingleFilter"
+    },
+    {
+      "field": "at_comp_plan1_revenue",
+      "headerName": "Approved revenue budget",
+      "width": 220,
+      "visibleInTabs": [
+        "summary",
+        "approved"
+        
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_res5_cost",
+      "headerName": "Approved subs budget",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "project_status",
+      "headerName": "Project status",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": "textColumn"
+    },
+    {
+      "field": "funding",
+      "headerName": "Contract value",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "cost_spent",
+      "headerName": "% Spent - cost",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "cpi",
+      "headerName": "CPI",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": ["number2DecimalColumn" ]
+    },
+    {
+      "field": "spi",
+      "headerName": "SPI",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": ["number2DecimalColumn" ]
+    },
+    {
+      "field": "ar_total",
+      "headerName": "Billed AR",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "unbilled_rec_total",
+      "headerName": "Unbilled AR",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_mtd",
+      "headerName": "GM (MTD)",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "negative_etc_calc",
+      "headerName": "Negative ETC",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "funding",
+      "headerName": "Expired EAC",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "funding",
+      "headerName": "Expired forecast end date",
+      "visibleInTabs": [
+        "kpis"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "ar_0030",
+      "headerName": "Billed AR 0-30",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "ar_3160",
+      "headerName": "Billed AR 31-60",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "ar_6190",
+      "headerName": "Billed AR 61-90",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "billed_ar_over_90_days",
+      "headerName": "Billed AR >90",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "retention",
+      "headerName": "Retention",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "ar_total",
+      "headerName": "Billed AR",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "unbilled_rec_0030",
+      "headerName": "Unbilled AR 0-30",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "unbilled_rec_3160",
+      "headerName": "Unbilled AR 31-60",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "unbilled_ar_60_days",
+      "headerName": "Unbilled AR >60",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "unbilled_rec_total",
+      "headerName": "Total unbilled",
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "width:": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+
+    {
+      "field": "at_comp_plan1_res4_cost",
+      "headerName": "Approved ODC budget",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_res6_cost",
+      "headerName": "Approved contingency budget",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_nsr_budget",
+      "headerName": "Approved NSR budget",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_nsr_backlog",
+      "headerName": "Approved NSR backlog",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_gross_margin_budget",
+      "headerName": "Approved gross margin budget",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 300,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_gross_margin_budget_percent_nsr",
+      "headerName": "Approved gross margin budget % of NSR",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 320,
+      "type": ["percentageColumn"]
+    },
+    {
+      "field": "funding_rar",
+      "headerName": "RAR funding",
+      "visibleInTabs": [
+        "summary"
+      ],
+      "width": 160,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan2_revenue",
+      "headerName": "Forecast revenue budget",
+      "visibleInTabs": [
+        "summary",
+        "forecast"
+        
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan2_res5_cost",
+      "headerName": "Forecast subs budget",
+      "width": 220,
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan2_res4_cost",
+      "headerName": "Forecast ODC budget",
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan2_res6_cost",
+      "headerName": "Forecast contingency budget",
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_nsr_budget",
+      "headerName": "Forecast NSR budget",
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_gross_margin",
+      "headerName": "Forecast gross margin",
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_gross_margin_percent_of_nsr",
+      "headerName": "Forecast gross margin % of NSR",
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "width": 300,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+ 
+    {
+      "field": "forecast_net_margin",
+      "headerName": "Forecast net margin",
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_net_margin_percent_of_nsr",
+      "headerName": "Forecast net margin % of NSR",
+      "width": 300,
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "forecast_gain_loss_margin",
+      "headerName": "Forecast gain/loss margin",
+      "width": 220,
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan2_res1_cost",
+      "headerName": "Forecast direct labor budget",
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "width": 260,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_direct_labor_multiplier",
+      "headerName": "Forecast direct labor multiplier",
+      "visibleInTabs": [
+        "forecast"
+      ],
+      "width": 260,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "gr_itd",
+      "headerName": "GR - ITD",
+      "visibleInTabs": [
+        "summary",
+        "itd"
+      ],
+      "width": 160,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gr_mtd",
+      "headerName": "GR - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "subs_itd",
+      "headerName": "Subs - ITD",
+      "width": 220,
+      "visibleInTabs": [
+        "itd"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "odc_itd",
+      "headerName": "ODC - ITD",
+      "width": 220,
+      "visibleInTabs": [
+        "itd"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nsr_itd",
+      "headerName": "NSR - ITD",
+      "width": 220,
+      "visibleInTabs": [
+        "itd"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_itd",
+      "headerName": "GM - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_percent_of_nsr_itd",
+      "headerName": "GM % of NSR - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 220,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "subs_mtd",
+      "headerName": "Subs - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "odc_mtd",
+      "headerName": "ODC - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nsr_mtd",
+      "headerName": "NSR - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_mtd",
+      "headerName": "GM - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_percent_of_nsr_mtd",
+      "headerName": "GM % of NSR - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "total_costs_mtd",
+      "headerName": "Total costs - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_mtd",
+      "headerName": "NM - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_percent_of_nsr_mtd",
+      "headerName": "NM % of NSR - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "delta_res_1",
+      "headerName": "Direct labor - MTD",
+      "width": 220,
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_multiplier_mtd",
+      "headerName": "Direct labor multiplier - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "delta_labor_hours_pp",
+      "headerName": "Direct labor hours - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "delta_res_2",
+      "headerName": "Fringe - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "delta_res_3",
+      "headerName": "Overhead - MTD",
+      "visibleInTabs": [
+        "mtd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "billed_itd",
+      "headerName": "Billed ITD",
+      "visibleInTabs": [
+        "summary"
+        
+      ],
+      "width": 160,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_cost",
+      "headerName": "Approved cost budget",
+      "visibleInTabs": [
+        "summary",
+        "approved"
+      ],
+      "width": 160,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan2_cost",
+      "headerName": "Forecast cost budget",
+      "visibleInTabs": [
+        "summary",
+        "forecast"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_net_margin",
+      "headerName": "Approved net margin",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_net_margin_percent_of_nsr",
+      "headerName": "Approved net margin % of NSR",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 260,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_res1_cost",
+      "headerName": "Approved direct labor budget",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 260,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_direct_labor_multiplier",
+      "headerName": "Approved direct labor multiplier",
+      "visibleInTabs": [
+        "approved"
+      ],
+      "width": 260,
+      "type": ["number2DecimalColumn"]
+    },
+    {
+      "field": "total_costs_itd",
+      "headerName": "Total costs - ITD",
+      "width": 220,
+      "visibleInTabs": [
+        "summary",
+        "itd"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_itd",
+      "headerName": "NM - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_percent_of_nsr_itd",
+      "headerName": "NM % of NSR - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 260,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_itd",
+      "headerName": "Direct labor - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_multiplier_itd",
+      "headerName": "Direct labor multiplier - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 250,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_hours_itd",
+      "headerName": "Direct labor hours - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 260,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "fringe_itd",
+      "headerName": "Fringe - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "overhead_itd",
+      "headerName": "Overhead - ITD",
+      "visibleInTabs": [
+        "itd"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "etc",
+      "headerName": "ETC",
+      "visibleInTabs": [
+        "summary"
+        
+      ],
+      "width": 135,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "percent_costs_to_date",
+      "headerName": "% Spent - cost",
+      "visibleInTabs": [
+        "summary"
+        
+      ],
+      "width": 220,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "percent_biiled_to_date",
+      "headerName": "% Billed to date",
+      "visibleInTabs": [
+        "summary"
+        
+      ],
+      "width": 220,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "gain_lost_margin_ytd",
+      "headerName": "Margin loss/gain YTD",
+      "width": 220,
+      "visibleInTabs": [
+        "summary"
+        
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gain_lost_margin_itd",
+      "headerName": "Margin loss/gain ITD",
+      "visibleInTabs": [
+        "summary"
+        
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "ar_total",
+      "headerName": "Billed AR",
+      "visibleInTabs": [
+        "summary"
+      ],
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "unbilled_rec_total",
+      "headerName": "Total unbilled",
+      "visibleInTabs": [
+        "summary"
+        
+      ],
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "biee",
+      "headerName": "BIEE",
+      "width": 120,
+      "visibleInTabs": [
+        "summary",
+        "ar unbilled"
+      ],
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "dso",
+      "headerName": "Project DSO",
+      "width:": 220,
+      "visibleInTabs": [
+        "ar unbilled"
+      ],
+      "type":["number2DecimalColumn"]
+    },
+    {
+      "field": "project_id",
+      "headerName": "Project id",
+      "visibleInTabs": [
+        "summary",
+        "kpis"
+        
+      ],
+      "width": 310,
+      "hide": true,
+      "suppressColumnsToolPanel": true
+    }
+  ],
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true,
+    "sortable": true,
+    "resizable": true,
+    "menuTabs": [
+      "filterMenuTab",
+      "generalMenuTab"
+    ]
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "Summary"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig",
+      "sidebarFilterConfig"
+    ]
+  }
+}

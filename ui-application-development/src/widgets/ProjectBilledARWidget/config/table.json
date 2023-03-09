@@ -1,0 +1,30 @@
+{
+    "columnDefs": [
+      {
+        "field": "aging",
+        "headerName": "Status",
+        "width": 200,
+        "type": ["supressFilter"]
+      },
+      {
+        "field": "balance",
+        "headerName": "Amount",
+        "width": 200,
+        "type": ["currencyColumn","totalColumn"]
+      }
+    ],
+    "defaultColDef": {
+      "wrapHeaderText": true,
+      "autoHeaderHeight": true,
+      "sortable": true,
+      "resizable": true,
+      "menuTabs": ["generalMenuTab"]
+    },
+    "enableRangeSelection": true,
+    "enableColumnMoving": false,
+    "defaultExcelExportParams": {
+      "fileName": "Billing & AR details",
+      "sheetName": "Table",
+      "combinedSheetName": "Billing & AR details"
+    }
+  }

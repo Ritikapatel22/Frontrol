@@ -1,0 +1,205 @@
+{
+    "columnDefs": [
+      {
+        "field": "project_number",
+        "headerName": "Project number",
+        "width": 150,
+        "pinned": "left",
+        "type": ["textColumnSingleFilter","linkType"],
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "project_name",
+        "headerName": "Project name",
+        "width": 220,
+        "type": ["textColumnSingleFilter","linkType"],
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "action_required_by",
+        "headerName": "Action required by",
+        "width": 180,
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "workflow_type",
+        "headerName": "Type",
+        "width": 220,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "workflow_subject",
+        "headerName": "Subject",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "submitted_by",
+        "headerName": "Submitted by",
+        "width": 220,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "submitted_date",
+        "headerName": "Submitted date",
+        "width": 160,
+        "type": ["dateFormat", "dateFilter"]
+      },
+      {
+        "field": "elapsed_days",
+        "headerName": "Elapsed days",
+        "width": 160,
+        "type": ["numberColumn"]
+      },
+      {
+        "field": "next_approver",
+        "headerName": "Next approver",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "days_untill_escalation",
+        "headerName": "Days until escalation",
+        "width": 160,
+        "type": ["numberColumn"]
+      },
+      {
+        "field": "timeout_approver",
+        "headerName": "Timeout approver",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "project_manager",
+        "headerName": "Project manager",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "project_approver",
+        "headerName": "Project approver",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "project_approver_2",
+        "headerName": "Project approver 2",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "project_accountant",
+        "headerName": "Project accountant",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "project_accountant_alternate",
+        "headerName": "Project accountant alternate",
+        "width": 220,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "finance_lead",
+        "headerName": "Finance lead",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "finance_lead_2",
+        "headerName": "Finance lead 2",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "project_status",
+        "headerName": "Project status",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "contract_type",
+        "headerName": "Contract type",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "project_type",
+        "headerName": "Project type",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "operating_unit",
+        "headerName": "Operating unit",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "operating_group",
+        "headerName": "Operating group",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "strategic_business_unit",
+        "headerName": "Strategic business unit",
+        "width": 190,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "area",
+        "headerName": "Area",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "sub_area",
+        "headerName": "Sub area",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "level_5_organization",
+        "headerName": "Level 5 organization",
+        "width": 190,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "global_business_line",
+        "headerName": "Global business line",
+        "width": 180,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "sub_business_line",
+        "headerName": "Sub-business line",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "department",
+        "headerName": "Department",
+        "width": 160,
+        "type": ["textColumnSingleFilter"]
+      },
+      {
+        "field": "project_organization",
+        "headerName": "Project organization",
+        "width": 190,
+        "type": ["textColumnSingleFilter"]
+      }
+    ],
+    "defaultColDef": {
+      "wrapHeaderText": true,
+      "autoHeaderHeight": true, 
+      "sortable": true,
+      "resizable": true,
+      "menuTabs": ["generalMenuTab"]
+    },
+    "enableRangeSelection": true,
+    "defaultExcelExportParams": {
+      "fileName": "Pending project approvals",
+      "sheetName": "Summary"
+    }
+}

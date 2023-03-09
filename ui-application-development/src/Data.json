@@ -1,0 +1,207 @@
+[
+    {
+        "projectId": 10001,
+        "projectnumber": 600001,
+        "projectName": "DFAT Document Review 1",
+        "projectStatus": "Approved",
+        "lastUpdateDate": "6/25/2022",
+        "lastSummDate": "6/25/2022 9:00:00 AM",
+        "Billed AR 60 Days": [
+            931793, 383716, 530628, 809953, 514216, 208461, 570058, 462749,
+            396266, 731663, 517654, 462354, 976738
+        ],
+        "Billed AR 60 Days 90": [
+            605801, 460283, 816533, 532605, 596162, 662377, 401387, 928113,
+            375606, 767910, 689308, 114310, 446493
+        ],
+        "Billed AR 90 Days 180": [
+            974341, 191966, 221522, 266071, 251521, 954187, 864023, 236304,
+            416761, 876482, 464101, 115575, 287833
+        ],
+        "Billed AR > 180 Days": [
+            761356, 691556, 160357, 939502, 424621, 814588, 802062, 652290,
+            334168, 519670, 814440, 721359, 682563
+        ],
+        "Retention/Adjustment": [
+            4136225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4136225
+        ],
+        "Billed AR Days - Actuals": [
+            6, 11, 21, 19, 6, 23, 20, 13, 9, 19, 14, 15, 5
+        ],
+        "projectManager": "Bourke, Peter John",
+        "projectApprover": "Donnelly, Stephanie",
+        "BilledARCurrent": 0,
+        "currBilledAR3160Days": 0,
+        "currBilledAR6190Days": 0,
+        "currBilledAR91120Days": 0,
+        "currBilledAR121150Days": 0,
+        "currBilledAR151180Days": 0,
+        "currBilledAR181360Days": 0,
+        "currBilledARMore360Days": 0,
+        "retention": 0,
+        "arBalance": 0,
+        "balanceARDays": 0,
+        "lastInvoice": 0,
+        "operatingGroup": "International",
+        "strategicBusinessUnit": "ANZ"
+    },
+    {
+        "projectId": 10002,
+        "projectnumber": 600002,
+        "projectName": "DFAT Document Review 2",
+        "projectStatus": "Approved",
+        "lastUpdateDate": "6/25/2022",
+        "lastSummDate": "6/25/2022 9:00:00 AM",
+        "Billed AR 60 Days": [
+            474972, 380066, 518102, 886623, 659792, 389736, 152979, 836894,
+            147062, 496083, 416428, 205771, 527805
+        ],
+        "Billed AR 60 Days 90": [
+            261182, 722347, 546252, 246326, 503575, 581651, 918166, 492142,
+            627436, 386291, 624312, 355343, 388226
+        ],
+        "Billed AR 90 Days 180": [
+            475676, 820869, 815063, 389458, 211036, 763151, 255719, 164437,
+            286582, 628252, 645471, 902566, 434644
+        ],
+        "Billed AR > 180 Days": [
+            373923, 333556, 289044, 801351, 956160, 659219, 567987, 575155,
+            507132, 605315, 692533, 174777, 132868
+        ],
+        "Retention/Adjustment": [
+            4136225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4136225
+        ],
+        "Billed AR Days - Actuals": [
+            23, 28, 27, 30, 18, 18, 18, 10, 24, 29, 11, 28, 23
+        ],
+        "projectManager": "Bourke, Peter John",
+        "projectApprover": "Donnelly, Stephanie",
+        "BilledARCurrent": 0,
+        "currBilledAR3160Days": 0,
+        "currBilledAR6190Days": 0,
+        "currBilledAR91120Days": 0,
+        "currBilledAR121150Days": 0,
+        "currBilledAR151180Days": 0,
+        "currBilledAR181360Days": 0,
+        "currBilledARMore360Days": 0,
+        "retention": 0,
+        "arBalance": 0,
+        "balanceARDays": 0,
+        "lastInvoice": 0,
+        "operatingGroup": "International",
+        "strategicBusinessUnit": "ANZ"
+    },
+    {
+        "projectId": 10003,
+        "projectnumber": 600003,
+        "projectName": "DFAT Document Review 3",
+        "projectStatus": "Approved",
+        "lastUpdateDate": "6/25/2022",
+        "lastSummDate": "6/25/2022 9:00:00 AM",
+        "Billed AR 60 Days": [
+            453381, 703991, 119453, 935489, 159535, 497744, 451885, 143870,
+            794987, 922339, 618743, 467270, 924751
+        ],
+        "Billed AR 60 Days 90": [
+            288975, 647999, 984258, 495459, 276978, 388714, 960084, 808594,
+            714477, 126071, 527058, 353685, 245873
+        ],
+        "Billed AR 90 Days 180": [
+            610476, 111613, 480201, 670678, 645290, 784129, 568056, 983159,
+            534714, 362696, 651934, 801598, 920418
+        ],
+        "Billed AR > 180 Days": [
+            333295, 954374, 473673, 433106, 621749, 862089, 218325, 324410,
+            212381, 602961, 988775, 204297, 909552
+        ],
+        "Retention/Adjustment": [
+            4136225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4136225
+        ],
+        "Billed AR Days - Actuals": [
+            30, 10, 6, 16, 22, 6, 10, 23, 29, 9, 14, 28, 23
+        ],
+        "projectManager": "Bourke, Peter John",
+        "projectApprover": "Donnelly, Stephanie",
+        "BilledARCurrent": 0,
+        "currBilledAR3160Days": 0,
+        "currBilledAR6190Days": 0,
+        "currBilledAR91120Days": 0,
+        "currBilledAR121150Days": 0,
+        "currBilledAR151180Days": 0,
+        "currBilledAR181360Days": 0,
+        "currBilledARMore360Days": 0,
+        "retention": 0,
+        "arBalance": 0,
+        "balanceARDays": 0,
+        "lastInvoice": 0,
+        "operatingGroup": "International",
+        "strategicBusinessUnit": "ANZ"
+    },
+    {
+        "projectId": 10004,
+        "projectnumber": 600004,
+        "projectName": "DFAT Document Review 4",
+        "projectStatus": "Approved",
+        "lastUpdateDate": "6/25/2022",
+        "lastSummDate": "6/25/2022 9:00:00 AM",
+        "Billed AR 60 Days": [
+            528443, 788272, 591448, 975350, 884838, 608661, 372506, 547562,
+            175598, 978636, 248023, 642461, 104130
+        ],
+        "Billed AR 60 Days 90": [
+            481577, 479429, 716043, 161461, 628327, 491797, 220184, 126019,
+            546038, 654832, 242352, 984356, 241121
+        ],
+        "Billed AR 90 Days 180": [
+            384992, 356624, 856675, 951003, 709484, 876403, 749376, 386462,
+            996792, 760053, 863284, 636654, 526091
+        ],
+        "Billed AR > 180 Days": [
+            154753, 144471, 910119, 694232, 735986, 644155, 855913, 714260,
+            899626, 387875, 711116, 376216, 438168
+        ],
+        "Retention/Adjustment": [
+            4136225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4136225
+        ],
+        "Billed AR Days - Actuals": [
+            11, 12, 12, 16, 9, 16, 24, 15, 28, 12, 9, 6, 23
+        ],
+        "projectManager": "Bourke, Peter John",
+        "projectApprover": "Donnelly, Stephanie",
+        "BilledARCurrent": 0,
+        "currBilledAR3160Days": 0,
+        "currBilledAR6190Days": 0,
+        "currBilledAR91120Days": 0,
+        "currBilledAR121150Days": 0,
+        "currBilledAR151180Days": 0,
+        "currBilledAR181360Days": 0,
+        "currBilledARMore360Days": 0,
+        "retention": 0,
+        "arBalance": 0,
+        "balanceARDays": 0,
+        "lastInvoice": 0,
+        "operatingGroup": "International",
+        "strategicBusinessUnit": "ANZ"
+    },
+        {"projectId":100005,"projectnumber":6000005,"projectName":"M12RT Tender Services","projectStatus":"Approved",
+          "lastUpdateDate":"6/25/2022","lastSummDate":"6/25/2022 9:00:00 AM"
+          ,"billedAR60Days":[5309023, 5319023, 5299023, 5289023, 5339023,	
+          5349023, 5309023,	5409023, 609023,	309023, 359023, 459023, 409023],
+          
+          "Billed AR 60 Days 90": [4300196,	4100196, 470196, 440196, 4190196, 4140196, 4110196,
+                  460196, 460196, 461196, 56196,	66196, 76196],
+          "billedAR90Days180":[4136225, 4156225, 156225, 156225, 106225, 96225,	
+              66225, 66225,	76225,126225, 126225, 126225, 96225],
+          "billedARDays180":[4136225, 4156225, 156225, 156225, 106225, 96225,	
+              66225, 66225,	76225,126225, 126225, 126225, 96225],
+          "retentionAdjustment":[4136225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,4136225],
+          "billedARDaysActuals":[23, 20, 17,18,19,16,16,15,16,16,19,19,20],
+          "projectManager": "Li, Winston Yan (Winston)","projectApprover": "Kearns, Stephen Martin (Stephen)",
+          "projectAccountant": "Monteiro, Briand Orejudos (Briand)", "currency": "AUD",
+          "BilledARCurrent" : 350832,"currBilledAR3160Days": 59633,"currBilledAR6190Days": 73705,"currBilledAR91120Days": 0,
+          "currBilledAR121150Days": 0,"currBilledAR151180Days": 0,"currBilledAR181360Days": 0,
+          "currBilledARMore360Days": 0,"retention": 0,"arBalance": 350832,"balanceARDays": 0,"lastInvoice":"",
+          "operatingGroup": "International","strategicBusinessUnit": "ANZ","area":"ANZ NAC",
+          "GlobalBusinessLine":"Transportation","BusinessLine":"Transportation"}
+    ]
+

@@ -1,0 +1,146 @@
+{
+    "columnDefs": [
+ 
+        {
+            "field": "aging",
+            "headerName": "Metrics",
+            "width": 200,
+            "pinned": "left"
+        },
+        {
+            "field": "bucket1",
+            "headerName": "Period 1",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 0,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket2",
+            "headerName": "Period 2",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 1,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket3",
+            "headerName": "Period 3",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 2,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket4",
+            "headerName": "Period 3",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 3,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket5",
+            "headerName": "Period 4",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 4,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket6",
+            "headerName": "Period 5",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 5,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket7",
+            "headerName": "Period 6",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 6,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket8",
+            "headerName": "Period 6",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 7,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket9",
+            "headerName": "Period 7",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 8,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket10",
+            "headerName": "Period 8",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 9,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket11",
+            "headerName": "Period 9",
+            "headerHidden": true,
+            "width": 145,
+            "remoteHeaderNameIdx": 10,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        },
+        {
+            "field": "bucket12",
+            "headerName": "Current",
+            "width": 145,
+            "remoteHeaderNameIdx": 11,
+            "type": [
+                "currencyConversionColumn","totalColumn"
+            ]
+        }
+    ],
+    "suppressDragLeaveHidesColumns": true,
+    "defaultColDef": {
+        "wrapHeaderText": true,
+        "autoHeaderHeight": true,
+        "resizable": true,
+        "menuTabs": [
+            "generalMenuTab"
+        ],
+        "suppressMovable": true
+    },
+    "enableRangeSelection": true,
+    "enableColumnMoving": false,
+    "defaultExcelExportParams": {
+        "fileName": "Profit&loss",
+        "sheetName": "TrendValues"
+    }
+}

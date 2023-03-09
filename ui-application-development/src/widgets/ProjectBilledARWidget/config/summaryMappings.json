@@ -1,0 +1,57 @@
+{
+  "SERIES_INFO_INVOICE": [{ "type": "Paid", "coulmnRefer": "cash_apps_itd" },
+  { "type": "Billed AR current", "coulmnRefer": "ar_0030" },
+  { "type": "Billed AR 31-60", "coulmnRefer": "ar_3160" },
+  { "type": "Billed AR 61-90", "coulmnRefer": "ar_6190" },
+  { "type": "Billed AR 91-180", "coulmnRefer": "ar_121180" },
+  { "type": "Billed AR >180", "coulmnRefer": "ar_180" },
+  { "type": "Retention", "coulmnRefer": "retention" }
+  ],
+  "SERIES_INFO_INVOICE_Bill": [{ "type": "Paid" },
+  { "type": "Billed AR current" },
+  { "type": "Billed AR 31-60" },
+  { "type": "Billed AR 61-90" },
+  { "type": "Billed AR 91-180" },
+  { "type": "Billed AR >180" },
+  { "type": "Retention" }
+  ],
+  "COLUMN_NAMES": [
+    "cash_apps_itd",
+    "ar_0030",
+    "ar_3160",
+    "ar_6190",
+    "ar_91180",
+    "ar_over_180",
+    "retention"
+  ],
+  "SERIES_INFO": {
+    "ar_0030": {
+      "label": "Billed AR current",
+      "color": "#00353E"
+    },
+    "ar_3160": {
+      "label": "Billed AR 31-60 days",
+      "color": "#008768"
+    },
+    "ar_6190": {
+      "label": "Billed AR 61-90 days",
+      "color": "#AECC53"
+    },
+    "ar_91180": {
+      "label": "Billed AR 91-180 days",
+      "color": "#FFCE00"
+    },
+    "ar_over_180": {
+      "label": "Billed AR >180 days",
+      "color": "#009A9B"
+    },
+    "retention": {
+      "label": "Retention",
+      "color": "#5F909A"
+    },
+    "cash_apps_itd": {
+      "label": "Payment received",
+      "color": "#C70C6F"
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "columnDefs": [
+    {
+        "field": "project_number",
+        "headerName": "Project number",
+        "width": 150,
+        "pinned": "left",
+        "type": ["textColumnSingleFilter","linkType"],
+        "cellClass": "acm-hyperlink"
+    },
+    {
+        "field": "project_name",
+        "headerName": "Project name",
+        "width": 220,
+        "type": [
+        "textColumnSingleFilter",
+        "noFilter","linkType"],
+        "cellClass": "acm-hyperlink"
+    },
+    {
+        "field": "project_func_currency_code",
+        "headerName": "Currency",
+        "width": 160,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "unbilled_rec_0030",
+        "headerName": "Unbilled AR current",
+        "width": 180,
+        "type": [ "currencyConversionColumn","totalColumn"]
+    },
+    {
+        "field": "unbilled_rec_3160",
+        "headerName": "Unbilled AR 31-60",
+        "width": 180,
+        "type": [
+        "currencyConversionColumn","totalColumn"
+      ]
+    },
+    {
+        "field": "unbilled_rec_6190",
+        "headerName": "Unbilled AR 61-90",
+        "width": 180,
+        "type": [
+        "currencyConversionColumn","totalColumn"
+      ]
+    },
+    {
+        "field": "ar_91180",
+        "headerName": "Unbilled AR 91-180",
+        "width": 180,
+        "type": [
+        "currencyConversionColumn","totalColumn"
+      ]
+    },
+    {
+        "field": "ar_180",
+        "headerName": "Unbilled AR >180",
+        "width": 180,
+        "type": [
+        "currencyConversionColumn","totalColumn"
+      ]
+    },
+    {
+        "field": "unbilled_rec_total",
+        "headerName": "Unbilled balance",
+        "width": 180,
+        "type": [
+        "currencyConversionColumn","totalColumn"
+      ]
+    },
+    {
+        "field": "biee",
+        "headerName": "BIEE",
+        "width": 180,
+        "type": [
+          "currencyConversionColumn","totalColumn"
+      ]
+    },
+    {
+        "field": "retention",
+        "headerName": "Retention reserves",
+        "width": 180,
+        "type": [
+        "currencyConversionColumn","totalColumn"
+      ]
+    },
+    {
+        "field": "last_invoice_date",
+        "headerName": "Last invoice date",
+        "width": 150,
+        "type": [
+        "dateFormat",
+        "dateFilter"
+      ]
+    },
+    {
+        "field": "project_status",
+        "headerName": "Project status",
+        "width": 178,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "bu_name",
+        "headerName": "Operating unit",
+        "width": 140,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "org_1",
+        "headerName": "Operating group",
+        "width": 170,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "org_2",
+        "headerName": "Strategic business unit",
+        "width": 190,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "org_3",
+        "headerName": "Area",
+        "width": 170,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "org_4",
+        "headerName": "Sub area",
+        "width": 220,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "org_5",
+        "headerName": "Level 5 organization",
+        "width": 190,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "org_6",
+        "headerName": "Global business line",
+        "width": 180,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "org_7",
+        "headerName": "Sub-business line",
+        "width": 160,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "org_8",
+        "headerName": "Department",
+        "width": 300,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "customer_number",
+        "headerName": "Customer number",
+        "width": 160,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "customer_name",
+        "headerName": "Customer name",
+        "width": 310,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "key_member_1",
+        "headerName": "Project manager",
+        "width": 215,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "key_member_3",
+        "headerName": "Project approver",
+        "width": 235,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "key_member_2",
+        "headerName": "Project accountant",
+        "width": 215,
+        "type": "textColumnSingleFilter"
+    },
+    {
+        "field": "project_id",
+        "headerName": "Project id",
+        "width": 310,
+        "hide": true,
+        "suppressColumnsToolPanel": true
+    }
+  ],
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true,
+    "sortable": true,
+    "resizable": true,
+    "menuTabs": [
+      "filterMenuTab",
+      "generalMenuTab"
+    ]
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Aged unbilled trend",
+    "sheetName": "Projects",
+    "combinedSheetName": "Aged unbilled trend"
+  }
+}

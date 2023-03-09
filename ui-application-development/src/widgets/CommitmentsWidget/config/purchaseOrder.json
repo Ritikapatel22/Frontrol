@@ -1,0 +1,135 @@
+{
+    "columnDefs": [
+      {
+        "field": "cmt_number",
+        "headerName": "PO #",
+        "width": 160,
+        "pinned": "left",
+        "type": "textColumnSingleFilter",
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "cmt_line_number",
+        "headerName": "PO line #",
+        "width": 180,
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "project_number",
+        "headerName": "Project number",
+        "width": 150,
+        "type": "textColumnSingleFilter",
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "project_name",
+        "headerName": "Project name",
+        "width": 220,
+        "type": "textColumnSingleFilter",
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "task_number",
+        "headerName": "Task number",
+        "width": 160,
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "task_name",
+        "headerName": "Task name",
+        "width": 220,
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "vendor_name",
+        "headerName": "Supplier name",
+        "width": 220,
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "vendor_number",
+        "headerName": "Supplier number",
+        "width": 160,
+        "type": "textColumnSingleFilter"         
+      },
+      {
+        "field": "description",
+        "headerName": "Description",
+        "width": 180,
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "expenditure_category",
+        "headerName": "Expenditure category",
+        "width": 190,
+        "type": "textColumnSingleFilter"
+      },
+      {
+        "field": "cmt_creation_date",
+        "headerName": "Created date",
+        "width": 150,
+        "type": ["dateFormat"]
+      },
+      {
+        "field": "cmt_approved_date",
+        "headerName": "Approved date",
+        "width": 150,
+        "type": ["dateFormat"]
+      },
+      {
+        "field": "original_po_amt_in_func_curr",
+        "headerName": "PO value (functional currency)",
+        "width": 180,
+        "type": ["currencyConversionColumn"]
+      },
+      {
+        "field": "invoiced_amount_in_func_curr",
+        "headerName": "Invoiced value (functional currency)",
+        "width": 180,
+        "type": ["currencyConversionColumn"]
+      },
+      {
+        "field": "remaining_balance",
+        "headerName": "Remaining balance (functional currency)",
+        "width": 185,
+        "type": ["currencyConversionColumn"]
+      },
+      {
+        "field": "po_currency_code",
+        "headerName": "PO currency",
+        "width": 130,
+        "type": "textColumnSingleFilter"         
+      },
+      {
+        "field": "original_po_amount_in_po_curr",
+        "headerName": "PO value (PO currency)",
+        "width": 200,
+        "type": ["currencyColumn"]         
+      },
+      {
+        "field": "invoiced_amount",
+        "headerName": "Invoiced value (PO currency)",
+        "width": 160,
+        "type": ["currencyColumn"]         
+      },
+      {
+        "field": "remaining_balance2",
+        "headerName": "Remaining balance (PO currency)",
+        "width": 160,
+        "type": ["currencyColumn"]
+      }
+    ],
+    "defaultColDef": {
+      "wrapHeaderText": true,
+      "autoHeaderHeight": true, 
+      "sortable": true,
+      "resizable": true,
+      "menuTabs": ["filterMenuTab", "generalMenuTab"]
+    },
+    "enableRangeSelection": true,
+    "defaultExcelExportParams": {
+      "fileName": "Commitments detail PO status",
+      "sheetName": "Purchase Order"
+    }
+  }
+  

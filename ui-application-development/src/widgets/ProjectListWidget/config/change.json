@@ -1,0 +1,138 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "width": 150,
+      "pinned": "left",
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_func_currency_code",
+      "headerName": "Currency",
+      "width": 160,
+      "type": "supressFilter"
+    },
+    {
+      "field": "approved_revenue_budget_mtd_change",
+      "headerName": "Approved revenue budget MTD change",
+      "width": 300,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_revenue_mtd_change",
+      "headerName": "Forecast revenue MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_nsr_budget_mtd_change",
+      "headerName": "Approved NSR budget MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_nsr_mtd_change",
+      "headerName": "Forecast NSR MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_gross_margin_mtd_change",
+      "headerName": "Approved gross margin MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_gross_margin_mtd_change",
+      "headerName": "Forecast gross margin MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_gross_margin_mtd_change_percent_of_nsr_mtd_change",
+      "headerName": "Approved gross margin MTD change % of NSR MTD change",
+      "width": 287,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "approved_cost_budget_mtd_change",
+      "headerName": "Approved cost budget MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_cost_mtd_change",
+      "headerName": "Forecast cost MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_net_margin_mtd_change",
+      "headerName": "Approved net margin MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "forecast_net_margin_mtd_change",
+      "headerName": "Forecast net margin MTD change",
+      "width": 280,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_net_margin_mtd_change_percent_of_nsr_mtd_change",
+      "headerName": "Approved net margin MTD change % of NSR MTD change",
+      "width": 280,
+      "type": ["percentageColumn"]
+    }
+  ],
+  "defaultColDef": {
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "sortable": true,
+    "wrapHeaderText": true
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "Change"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+    "columnDefs": [
+        {
+            "field": "dependency",
+            "headerName": "Show dependencies",
+            "width": 140,
+            "checkboxSelection": true,
+            "pinned": "left",
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "query_name",
+            "headerName": "Type",
+            "width": 120,
+            "pinned": "left",
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "field_name",
+            "headerName": "Field",
+            "width": 220,
+            "pinned": "left",
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "field_value",
+            "headerName": "Value",
+            "pinned": "left",
+            "width": 160,
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "formula",
+            "headerName": "Formula",
+            "width": 400,
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "modifiedValue",
+            "headerName": "Modified value",
+            "width": 160,
+            "type": ["textColumnSingleFilter"],
+            "hide": true
+        },
+        {
+            "field": "modifiedFormula",
+            "headerName": "Modified formula",
+            "width": 400,
+            "type": ["textColumnSingleFilter"],
+            "hide": true
+        },
+        {
+            "field": "errors",
+            "headerName": "Errors",
+            "width": 300,
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "isDuplicate",
+            "headerName": "Duplicate",
+            "width": 120,
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "outOfSequence",
+            "headerName": "Out of sequence",
+            "width": 130,
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "formula_missing",
+            "headerName": "Invalid fields in formula",
+            "width": 400,
+            "type": ["textColumnSingleFilter"]
+        },
+        {
+            "field": "sourceFields",
+            "headerName": "Source fields",
+            "width": 400,
+            "type": ["textColumnSingleFilter"],
+            "hide": true
+        },
+        {
+            "field": "impactedFields",
+            "headerName": "Impacted fields",
+            "width": 400,
+            "type": ["textColumnSingleFilter"],
+            "hide": true
+        },
+        {
+            "field": "modified",
+            "headerName": "Modified",
+            "width": 120,
+            "type": ["textColumnSingleFilter"],
+            "hide": true
+        }
+    ],
+    "defaultColDef": {
+        "wrapHeaderText": true,
+        "autoHeaderHeight": true,
+        "sortable": false,
+        "resizable": true,
+        "menuTabs": [
+            "filterMenuTab",
+            "generalMenuTab"
+        ]
+    },
+    "enableRangeSelection": true,
+    "defaultExcelExportParams": {
+        "fileName": "formulas",
+        "sheetName": "formulas"
+    }
+}

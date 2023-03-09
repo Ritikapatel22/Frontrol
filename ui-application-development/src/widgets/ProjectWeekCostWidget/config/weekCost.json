@@ -1,0 +1,208 @@
+{
+  "columnDefs": [
+    {
+      "headerName": "Hours",
+      "children": [
+        {
+          "field": "prior_week_hours", "aggFunc": "sum",
+          "headerName": "Prior weeks",
+          "minWidth": 125,
+          "type": ["number2DecimalColumn"]
+        },
+        {
+          "field": "hours_period_1", "aggFunc": "sum",
+          "headerName": "Week 1",
+          "headerHidden": true,
+          "minWidth": 125,
+          "remoteHeaderNameIdx": 0,
+          "type": ["currencyColumn"],
+          "suppressColumnsToolPanel": true
+        },
+        {
+          "field": "hours_period_2", "aggFunc": "sum",
+          "headerName": "Week 2",
+          "headerHidden": true,
+          "minWidth": 125,
+          "remoteHeaderNameIdx": 1,
+          "type": ["currencyColumn"],
+          "suppressColumnsToolPanel": true
+        },
+        {
+          "field": "hours_period_3", "aggFunc": "sum",
+          "headerName": "Week 3",
+          "headerHidden": true,
+          "minWidth": 125,
+          "remoteHeaderNameIdx": 2,
+          "type": ["currencyColumn"],
+          "suppressColumnsToolPanel": true
+        },
+        {
+          "field": "hours_period_4", "aggFunc": "sum",
+          "headerName": "Week 4",
+          "headerHidden": true,
+          "minWidth": 125,
+          "remoteHeaderNameIdx": 3,
+          "type": ["currencyColumn"]
+        },
+        {
+          "field": "hours_period_5", "aggFunc": "sum",
+          "headerName": "Week 5",
+          "headerHidden": true,
+          "minWidth": 125,
+          "remoteHeaderNameIdx": 4,
+          "type": ["currencyColumn"],
+          "suppressColumnsToolPanel": true
+        },
+        {
+          "field": "itd_hours", "aggFunc": "sum",
+          "headerName": "ITD hours",
+          "minWidth": 125,
+          "type": ["number2DecimalColumn"] 
+        }
+      ]
+    },
+    {
+      "headerName": "Cost",
+      "children": [
+          {
+            "field": "prior_week_fbc", "aggFunc": "sum",
+            "headerName": "Prior weeks",
+            "minWidth": 125,
+            "type": ["currencyColumn"],
+            "hide": true 
+          },
+          {
+            "field": "cost_period_1", "aggFunc": "sum",
+            "headerName": "Week 1",
+            "headerHidden": true,
+            "minWidth": 125,
+            "remoteHeaderNameIdx": 0,
+            "type": ["currencyColumn"],
+            "suppressColumnsToolPanel": true
+          },
+          {
+            "field": "cost_period_2", "aggFunc": "sum",
+            "headerName": "Week 2",
+            "headerHidden": true,
+            "minWidth": 125,
+            "remoteHeaderNameIdx": 1,
+            "type": ["currencyColumn"],
+            "suppressColumnsToolPanel": true
+          },
+          {
+            "field": "cost_period_3", "aggFunc": "sum",
+            "headerName": "Week 3",
+            "headerHidden": true,
+            "minWidth": 125,
+            "remoteHeaderNameIdx": 2,
+            "type": ["currencyColumn"],
+            "suppressColumnsToolPanel": true
+          },
+          {
+            "field": "cost_period_4", "aggFunc": "sum",
+            "headerName": "Week 4",
+            "headerHidden": true,
+            "minWidth": 125,
+            "remoteHeaderNameIdx": 3,
+            "type": ["currencyColumn"],
+            "suppressColumnsToolPanel": true
+          },
+          {
+            "field": "cost_period_5", "aggFunc": "sum",
+            "headerName": "Week 5",
+            "headerHidden": true,
+            "minWidth": 125,
+            "remoteHeaderNameIdx": 4,
+            "type": ["currencyColumn"],
+            "suppressColumnsToolPanel": true
+          },
+          {
+            "field": "itd_fully_burdened_cost", "aggFunc": "sum",
+            "headerName": "ITD full burdened labor cost",
+            "minWidth": 160,
+            "type": ["currencyColumn"],
+            "hide": true 
+          },
+          {
+            "field": "itd_odc_subs_cost", "aggFunc": "sum",
+            "headerName": "ITD ODC & subs cost",
+            "minWidth": 125,
+            "type": ["currencyColumn"],
+            "hide": true 
+          },
+          {
+            "field": "itd_total_cost", "aggFunc": "sum",
+            "headerName": "ITD total cost",
+            "minWidth": 125,
+            "type": ["currencyColumn"],
+            "hide": true 
+          },
+          {
+            "field": "avg_cost_rate",
+            "headerName": "Avg cost rate/hr",
+            "minWidth": 125,
+            "type": ["currencyColumn"],
+            "aggFunc":"avg_cost_rate",
+            "hide": true 
+          }
+      ]
+    },
+    {
+      "headerName": "Resource",
+      "children": [
+        {
+          "field": "resource_name",
+          "headerName": "Resource name",
+          "type": "textColumnSingleFilter",
+          "minWidth": 125,
+          "menuTabs":[ "filterMenuTab", "generalMenuTab"],
+          "hide": true 
+        },
+        {
+          "field": "supplier_name",
+          "headerName": "Supplier name",
+          "type": "textColumnSingleFilter",
+          "minWidth": 125,
+          "menuTabs": ["filterMenuTab", "generalMenuTab"],
+          "hide": true,
+          "suppressColumnsToolPanel": true
+        },
+        {
+          "field": "resource_type",
+          "headerName": "Resource type",
+          "type": "textColumnSingleFilter",
+          "minWidth": 125,
+          "menuTabs": ["filterMenuTab", "generalMenuTab"],
+          "hide": true 
+        },
+        {
+          "field": "project_id",
+          "headerName": "Project id",
+          "type": "textColumnSingleFilter",
+          "minWidth": 115,
+          "menuTabs": ["filterMenuTab", "generalMenuTab"],
+          "hide": true,
+          "suppressColumnsToolPanel": true
+        },
+        {
+          "field": "row_type",
+          "headerName": "Row type",
+          "type": "textColumnSingleFilter",
+          "minWidth": 115,
+          "menuTabs": ["filterMenuTab", "generalMenuTab"],
+          "hide": true,
+          "suppressColumnsToolPanel": true
+        }
+      ]
+    }
+  ],
+  "enableRangeSelection": true,
+    "enableColumnMoving": false,
+    "defaultExcelExportParams": {
+      "fileName": "Project Week Cost",
+      "sheetName": "Week Cost"
+    },
+    "treeData": true,
+    "animateRows": true,
+    "groupDefaultExpanded": -1
+}

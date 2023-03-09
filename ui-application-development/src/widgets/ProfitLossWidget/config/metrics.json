@@ -1,0 +1,133 @@
+{
+    "columnDefs": [
+{
+                "headerName": "",
+                "children": [
+                    {
+                        "field": "",
+                        "headerName": "",
+                        "width": 50,
+                        "tooltipField": "description",
+                        "pinned": "left",
+                        "resizable": false
+                    },
+                    {
+                        "field": "row",
+                        "headerName": "",
+                        "tooltipField": "",
+                        "width": 200,
+                        "pinned": "left"
+                    }
+                ]
+            },
+        {
+            "headerName": "Actual",
+            "children": [
+                {
+                    "field": "prior_period_mtd",
+                    "headerName": "Prior period MTD",
+                    "width": 150,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                },
+                {
+                    "field": "mtd",
+                    "headerName": "MTD",
+                    "width": 135,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                },
+                {
+                    "field": "ytd",
+                    "headerName": "YTD",
+                    "width": 135,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                },
+                {
+                    "field": "itd",
+                    "headerName": "ITD",
+                    "width": 135,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                }
+            ]
+        },
+        {
+            "headerName": "Budget",
+            "children": [
+                {
+                    "field": "original",
+                    "headerName": "Original",
+                    "width": 135,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                },
+                {
+                    "field": "approved",
+                    "headerName": "Approved",
+                    "width": 135,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                },
+                {
+                    "field": "forecast",
+                    "headerName": "Forecast",
+                    "width": 135,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                },
+                {
+                    "field": "prior_period_forecast",
+                    "headerName": "Prior period forecast",
+                    "width": 170,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                }
+            ]
+        },
+        {
+            "headerName": "Estimate",
+            "children": [
+                {
+                    "field": "etc",
+                    "headerName": "ETC",
+                    "width": 135,
+                    "type": [
+                        "dynamicColumnFormat"
+                    ]
+                },
+                {
+                    "field": "complete",
+                    "headerName": "%Complete",
+                    "width": 135,
+                    "type": ["percentageColumn"]
+                }
+            ]
+        }
+    ],
+    "suppressDragLeaveHidesColumns": true,
+    "defaultColDef": {
+        "wrapHeaderText": true,
+        "autoHeaderHeight": true,
+        "resizable": true,
+        "menuTabs": [
+            "generalMenuTab"
+        ],
+        "suppressMovable": true
+    },
+    "enableRangeSelection": true,
+    "enableColumnMoving": false,
+    "defaultExcelExportParams": {
+        "fileName": "Profit&loss",
+        "sheetName": "KPIs"
+    }
+}

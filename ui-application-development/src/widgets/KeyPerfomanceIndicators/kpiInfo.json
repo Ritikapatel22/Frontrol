@@ -1,0 +1,214 @@
+[
+    {
+        "kpi_reference": "KPI-003",
+        "kpi_value_field": "sh_current_month",
+        "current_value_field": "sh_current_month",
+        "prior_value_field": "sh_last_month",
+        "colType": "percentageColumn",
+        "sparkline": true
+    },
+    {
+        "kpi_reference": "KPI-004",
+        "kpi_value_field": "sc_current_month",
+        "current_value_field": "sc_current_month",
+        "prior_value_field": "sc_last_month",
+        "colType": "percentageColumn",
+        "sparkline": true
+    },
+    {
+        "kpi_reference": "KPI-005",
+        "kpi_value_field": "pc_current_month",
+        "current_value_field": "pc_current_month",
+        "prior_value_field": "pc_last_month",
+        "colType": "percentageColumn",
+        "sparkline": true
+    },
+    {
+        "kpi_reference": "KPI-006",
+        "kpi_value_field": "ev_current_month",
+        "current_value_field": "ev_current_month",
+        "prior_value_field": "ev_last_month",
+        "colType": "percentageColumn"
+    },
+    {
+        "kpi_reference": "KPI-007",
+        "kpi_value_field": "cv_current_month_variance",
+        "current_value_field": "cv_current_month",
+        "prior_value_field": "cv_last_month",
+        "tooltip_template": "$cv_kpi_value, Earned Value: $ev_current_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-008",
+        "kpi_value_field": "sv_variance_current",
+        "current_value_field": "sv_current_month",
+        "prior_value_field": "sv_last_month",
+        "tooltip_template": "$cv_kpi_value, Earned Value: $ev_current_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-001",
+        "kpi_value_field": "cpi_kpi_value",
+        "current_value_field": "cpi_current_month",
+        "prior_value_field": "cpi_last_month",
+        "colType": "number2DecimalColumn"
+    },
+    {
+        "kpi_reference": "KPI-002",
+        "kpi_value_field": "spi_kpi_value",
+        "current_value_field": "spi_current_month",
+        "prior_value_field": "spi_last_month",
+        "colType": "number2DecimalColumn"
+    },
+    {
+        "kpi_reference": "KPI-101",
+        "kpi_value_field": "un_billed_ar_days",
+        "current_value_field": "ua_current_month",
+        "prior_value_field": "ua_last_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-102",
+        "kpi_value_field": "",
+        "current_value_field": "ut_current_month",
+        "prior_value_field": "ut_last_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-103",
+        "kpi_value_field": "billed_ar_days",
+        "current_value_field": "ar_current_month",
+        "prior_value_field": "ar_last_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-301",
+        "kpi_value_field": "gm_gr_kpi_value",
+        "current_value_field": "gm_gr_current_month",
+        "prior_value_field": "gm_gr_last_month",
+        "approved_budget_field": "gm_gr_approved_budget",
+        "eac_forecast_field": "gm_gr_eac_forecast_forecast",
+        "colType": "percentageColumn"
+    },
+    {
+        "kpi_reference": "KPI-302",
+        "kpi_value_field": "gm_nsr_kpi_value",
+        "current_value_field": "gm_nsr_current_month",
+        "prior_value_field": "gm_nsr_last_month",
+        "approved_budget_field": "gm_nsr_approved_budget",
+        "eac_forecast_field": "gm_nsr_eac_forecast_forecast",
+        "colType": "percentageColumn"
+    },
+    {
+        "kpi_reference": "KPI-303",
+        "kpi_value_field": "nm_gr_kpi_value",
+        "current_value_field": "nm_gr_current_month",
+        "prior_value_field": "nm_gr_last_month",
+        "approved_budget_field": "nm_gr_approved_budget",
+        "eac_forecast_field": "nm_gr_eac_forecast_forecast",
+        "colType": "percentageColumn"
+    },
+    {
+        "kpi_reference": "KPI-304",
+        "kpi_value_field": "nm_nsr_kpi_value",
+        "current_value_field": "nm_nsr_current_month",
+        "prior_value_field": "nm_nsr_last_month",
+        "approved_budget_field": "nm_nsr_approved_budget",
+        "eac_forecast_field": "nm_nsr_eac_forecast_forecast",
+        "colType": "percentageColumn"
+    },
+    {
+        "kpi_reference": "KPI-305",
+        "kpi_value_field": "scm_kpi_value",
+        "current_value_field": "scm_current_month",
+        "prior_value_field": "scm_last_month",
+        "approved_budget_field": "scm_approved_budget",
+        "eac_forecast_field": "scm_eac_forecast_forecast",
+        "colType": "number2DecimalColumn"
+    },
+    {
+        "kpi_reference": "KPI-306",
+        "kpi_value_field": "dlm_kpi_value",
+        "current_value_field": "dlm_current_month",
+        "prior_value_field": "dlm_last_month",
+        "approved_budget_field": "dlm_approved_budget",
+        "eac_forecast_field": "dlm_eac_forecast_forecast",
+        "colType": "number2DecimalColumn"
+    },
+    {
+        "kpi_reference": "KPI-401",
+        "kpi_value_field": "negative_etc_current_month",
+        "current_value_field": "negative_etc_current_month",
+        "prior_value_field": "",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-402",
+        "kpi_value_field": "end_data_kpi_value",
+        "current_value_field": "end_data_current_month",
+        "prior_value_field": "",
+        "colType": "dateFormat"
+    },
+    {
+        "kpi_reference": "KPI-403",
+        "kpi_value_field": "eac_due_days",
+        "current_value_field": "eac_due_date",
+        "prior_value_field": "",
+        "colType": "dateFormat"
+    },
+    {
+        "kpi_reference": "KPI-404",
+        "kpi_value_field": "lead_verifier_kpi_value",
+        "current_value_field": "lead_verifier_current_month",
+        "prior_value_field": ""
+    },
+    {
+        "kpi_reference": "KPI-501",
+        "kpi_value_field": "gm_nsr_mtd_kpi_value",
+        "current_value_field": "gm_nsr_mtd_current_month",
+        "prior_value_field": "gm_nsr_mtd_last_month",
+        "colType": "percentageColumn"
+    },
+    {
+        "kpi_reference": "KPI-502",
+        "kpi_value_field": "unbilled_ar_kpi_val",
+        "current_value_field": "unbilled_ar_value_current_month",
+        "prior_value_field": "unbilled_ar_value_last_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-503",
+        "kpi_value_field": "margin_gain_lost_itd_kpi_val",
+        "current_value_field": "margin_gain_lost_itd_current_month",
+        "prior_value_field": "margin_gain_lost_itd_last_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-504",
+        "kpi_value_field": "negative_gm_mtd_kpi_value",
+        "current_value_field": "negative_gm_mtd_current_month",
+        "prior_value_field": "negative_gm_mtd_last_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-505",
+        "kpi_value_field": "arb_btd_kpi_value",
+        "current_value_field": "arb_btd_current_month",
+        "prior_value_field": "arb_btd_last_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-506",
+        "kpi_value_field": "arb_frb_kpi_value",
+        "current_value_field": "arb_frb_current_month",
+        "prior_value_field": "arb_frb_last_month",
+        "colType": "currencyColumn"
+    },
+    {
+        "kpi_reference": "KPI-507",
+        "kpi_value_field": "fcb_acb_kpi_value",
+        "current_value_field": "fcb_acb_current_month",
+        "prior_value_field": "fcb_acb_last_month",
+        "colType": "currencyColumn"
+    }
+]

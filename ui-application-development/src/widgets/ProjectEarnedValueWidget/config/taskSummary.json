@@ -1,0 +1,116 @@
+{
+    "columnDefs": [
+      {
+        "field": "task_name",
+        "headerName": "Task name",
+        "type": "textColumnSingleFilter",
+        "minWidth": 115,
+        "menuTabs":[ "filterMenuTab", "generalMenuTab"]
+      },
+      {
+        "field": "original_cost_budget", 
+        "headerName": "Original cost budget",
+        "minWidth": 125,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "approved_changes", 
+        "headerName": "Approved changes",
+        "minWidth": 115,
+        "type": ["currencyColumn"]     
+      },
+      {
+        "field": "total_approved_cost_budget", 
+        "headerName": "Total approved budget (ACB)",
+        "minWidth": 135,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "planned_value", 
+        "headerName": "Planned value (phased ACB)",
+        "minWidth": 135,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "itd_actual", 
+        "headerName": "ITD actual",
+        "minWidth": 115,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "percentage_complete", 
+        "headerName": "% complete",
+        "minWidth": 115,
+        "type": ["percentageColumn"]
+      },
+      {
+        "field": "percentage_spent", 
+        "headerName": "% Spent - cost",
+        "minWidth": 115,
+        "type": ["percentageColumn"]
+      },
+      {
+        "field": "earned_value", 
+        "headerName": "Earned value",
+        "minWidth": 155,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "schedule_variance", 
+        "headerName": "Schedule variance (SV)",
+        "minWidth": 135,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "cost_variance", 
+        "headerName": "Cost variance (CV)",
+        "minWidth": 115,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "spi", 
+        "headerName": "SPI",
+        "minWidth": 115,
+        "type": ["number2DecimalColumn"]
+      },
+      {
+        "field": "cpi", 
+        "headerName": "CPI",
+        "minWidth": 115,
+        "type": ["number2DecimalColumn"]
+      },
+      {
+        "field": "tcpi", 
+        "headerName": "TCPI",
+        "minWidth": 115,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "projected_etc", 
+        "headerName": "Projected ETC",
+        "minWidth": 115,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "projected_eac", 
+        "headerName": "Projected EAC",
+        "minWidth": 115,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "variance_at_comp", 
+        "headerName": "Variance completion (VAC)",
+        "minWidth": 135,
+        "type": ["currencyColumn"]
+      }
+    ],
+    "enableRangeSelection": true,
+    "enableColumnMoving":false,
+    "defaultExcelExportParams": {
+      "fileName": "Earned value",
+      "sheetName": "Task summary"
+    },
+    "treeData": true,
+    "animateRows": true,
+    "groupDefaultExpanded": -1
+}

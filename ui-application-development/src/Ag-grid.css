@@ -1,0 +1,124 @@
+/* Global grid css */
+.ag-theme-alpine .ag-side-button-button:hover,
+.ag-checkbox-input-wrapper.ag-checked::after {
+	color: var(--global-grid-color) !important;
+}
+
+.ag-ltr .ag-side-bar-right .ag-selected .ag-side-button-button {
+	border-left-color: var(--global-grid-color) !important;
+}
+
+
+.ag-theme-alpine .ag-standard-button,
+.ag-theme-alpine-dark .ag-standard-button {
+	border-color: var(--global-grid-color) !important;
+	color: var(--grid-color) !important;
+}
+
+input[class^=ag-]:not([type]):focus,
+input[class^=ag-][type=text]:focus,
+input[class^=ag-][type=number]:focus,
+input[class^=ag-][type=tel]:focus,
+input[class^=ag-][type=date]:focus,
+input[class^=ag-][type=datetime-local]:focus,
+textarea[class^=ag-]:focus {
+	box-shadow: 0 0 2px 0.1rem var(--global-grid-shadow) !important;
+	border-color: var(--global-grid-color) !important;
+}
+
+.ag-theme-alpine .ag-standard-button:active,
+.ag-theme-alpine-dark .ag-standard-button:active {
+	border-color: var(--global-grid-color) !important;
+	background-color: var(--global-grid-color) !important;
+	color: var(--ag-background-color) !important;
+}
+
+.ag-picker-field-wrapper:focus {
+	box-shadow: 0 0 2px 0.1rem var(--global-grid-shadow) !important;
+}
+
+.ag-theme-alpine .ag-standard-button:hover,
+.ag-theme-alpine-dark .ag-standard-button:hover {
+	border-color: var(--global-grid-color) !important;
+}
+
+input[class^=ag-][type=button]:focus,
+button[class^=ag-]:focus {
+	box-shadow: var(--global-grid-shadow) !important;
+}
+
+.ag-toggle-button-input-wrapper.ag-checked {
+  background-color: var(--global-grid-color) !important;
+  border-color: var(--global-grid-color) !important;
+}
+
+.ag-tab-selected {
+	border-bottom-color: var(--global-grid-color) !important;
+}
+
+.ag-tab-selected .ag-icon,
+.ag-theme-alpine .ag-header-cell-menu-button:hover,
+.ag-theme-alpine .ag-side-button-button:hover,
+.ag-theme-alpine .ag-tab:hover,
+.ag-theme-alpine .ag-panel-title-bar-button:hover,
+.ag-theme-alpine .ag-header-expand-icon:hover,
+.ag-theme-alpine .ag-column-group-icons:hover,
+.ag-theme-alpine .ag-group-expanded .ag-icon:hover,
+.ag-theme-alpine .ag-group-contracted .ag-icon:hover,
+.ag-theme-alpine .ag-chart-settings-prev:hover,
+.ag-theme-alpine .ag-chart-settings-next:hover,
+.ag-theme-alpine .ag-group-title-bar-icon:hover,
+.ag-theme-alpine .ag-column-select-header-icon:hover,
+.ag-theme-alpine .ag-floating-filter-button-button:hover,
+.ag-theme-alpine .ag-filter-toolpanel-expand:hover,
+.ag-theme-alpine .ag-chart-menu-icon:hover,
+.ag-theme-alpine .ag-chart-menu-close:hover,
+.ag-theme-alpine-dark .ag-header-cell-menu-button:hover,
+.ag-theme-alpine-dark .ag-side-button-button:hover,
+.ag-theme-alpine-dark .ag-tab:hover,
+.ag-theme-alpine-dark .ag-panel-title-bar-button:hover,
+.ag-theme-alpine-dark .ag-header-expand-icon:hover,
+.ag-theme-alpine-dark .ag-column-group-icons:hover,
+.ag-theme-alpine-dark .ag-group-expanded .ag-icon:hover,
+.ag-theme-alpine-dark .ag-group-contracted .ag-icon:hover,
+.ag-theme-alpine-dark .ag-chart-settings-prev:hover,
+.ag-theme-alpine-dark .ag-chart-settings-next:hover,
+.ag-theme-alpine-dark .ag-group-title-bar-icon:hover,
+.ag-theme-alpine-dark .ag-column-select-header-icon:hover,
+.ag-theme-alpine-dark .ag-floating-filter-button-button:hover,
+.ag-theme-alpine-dark .ag-filter-toolpanel-expand:hover,
+.ag-theme-alpine-dark .ag-chart-menu-icon:hover,
+.ag-theme-alpine-dark .ag-chart-menu-close:hover {
+	color: var(--global-grid-color) !important;
+}
+
+.ag-toggle-button-input-wrapper.ag-checked::before,
+.ag-ltr .ag-cell-focus:not(.ag-cell-range-selected):focus-within,
+.ag-ltr .ag-context-menu-open .ag-cell-focus:not(.ag-cell-range-selected),
+.ag-ltr .ag-full-width-row.ag-row-focus:focus .ag-cell-wrapper.ag-row-group,
+.ag-ltr .ag-cell-range-single-cell,
+.ag-ltr .ag-cell-range-single-cell.ag-cell-range-handle,
+.ag-rtl .ag-cell-focus:not(.ag-cell-range-selected):focus-within,
+.ag-rtl .ag-context-menu-open .ag-cell-focus:not(.ag-cell-range-selected),
+.ag-rtl .ag-full-width-row.ag-row-focus:focus .ag-cell-wrapper.ag-row-group,
+.ag-rtl .ag-cell-range-single-cell,
+.ag-rtl .ag-cell-range-single-cell.ag-cell-range-handle {
+	border-color: var(--global-grid-color) !important;
+}
+
+.ag-cell.ag-cell-range-selected:not(.ag-cell-range-single-cell).ag-cell-range-top {
+	border-top-color: var(--global-grid-color) !important;
+}
+
+.ag-cell.ag-cell-range-selected:not(.ag-cell-range-single-cell).ag-cell-range-left {
+	border-left-color: var(--global-grid-color) !important;
+}
+
+.ag-cell-range-selected-1:not(.ag-cell-focus),
+.ag-root .ag-body-viewport .ag-cell-range-selected-1 {
+	border-right: 1px solid var(--global-grid-color) !important;
+}
+
+.ag-cell.ag-cell-range-selected:not(.ag-cell-range-single-cell).ag-cell-range-bottom {
+	border-bottom-color: var(--global-grid-color) !important;
+}

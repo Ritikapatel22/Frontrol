@@ -1,0 +1,4 @@
+.filter-input:focus-visible,
+.select-input:focus-visible {
+  outline: none;
+}

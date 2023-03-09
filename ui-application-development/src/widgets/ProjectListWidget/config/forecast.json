@@ -1,0 +1,118 @@
+{
+    "columnDefs": [
+      {
+        "field": "project_number",
+        "headerName": "Project number",
+        "width": 150,
+        "pinned": "left", 
+        "type":["supressFilter","linkType"],
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "project_name",
+        "headerName": "Project name",
+        "width": 220,
+        "type": ["supressFilter","linkType"],
+        "cellClass": "acm-hyperlink"
+      },
+      {
+        "field": "project_func_currency_code",
+        "headerName": "Currency",
+        "width": 160,
+        "type": "supressFilter"
+      },
+      {
+        "field": "at_comp_plan2_revenue",
+        "headerName": "Forecast revenue budget",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "at_comp_plan2_res5_cost",
+        "headerName": "Forecast subs budget",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "at_comp_plan2_res4_cost",
+        "headerName": "Forecast ODC budget",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "at_comp_plan2_res6_cost",
+        "headerName": "Forecast contingency budget",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "forecast_nsr_budget",
+        "headerName": "Forecast NSR budget",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "forecast_gross_margin",
+        "headerName": "Forecast gross margin",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "forecast_gross_margin_percent_of_nsr",
+        "headerName": "Forecast gross margin % of NSR",
+        "width": 300,
+        "type":["percentageColumn"]
+      },
+      {
+        "field": "at_comp_plan2_cost",
+        "headerName": "Forecast cost budget",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "forecast_net_margin",
+        "headerName": "Forecast net margin",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "forecast_net_margin_percent_of_nsr",
+        "headerName": "Forecast net margin % of NSR",
+        "width": 300,
+        "type":["percentageColumn"]
+      },
+      {
+        "field": "forecast_gain_loss_margin",
+        "headerName": "Forecast gain/loss margin",
+        "width": 220,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "at_comp_plan2_res1_cost",
+        "headerName": "Forecast direct labor budget",
+        "width": 260,
+        "type":["currencyConversionColumn"]
+      },
+      {
+        "field": "forecast_direct_labor_multiplier",
+        "headerName": "Forecast direct labor multiplier",
+        "width": 260,
+        "type":["number2DecimalColumn"]
+      }
+    ],
+    "defaultColDef": {
+      "resizable": true,
+      "menuTabs": ["generalMenuTab"],
+      "sortable": true,
+      "wrapHeaderText": true
+    },
+    "enableRangeSelection": true,
+    "defaultExcelExportParams": {
+      "fileName": "Project single line summary",
+      "sheetName": "Forecast"
+    },
+    "columnTypes": "columnTypesConfig",
+    "sideBar": {
+      "toolPanels": ["sidebarColsConfig"]
+    }
+  }

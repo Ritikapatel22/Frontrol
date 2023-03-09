@@ -1,0 +1,245 @@
+{"data":{
+  "projects": [
+    {
+      "project_id": 10001,
+      "project_number": 600001,
+      "projectName": "DFAT Document Review1",
+      "projectManager": "Bourke, Peter John",
+      "projectApprover": "Donnelly, Stephanie",
+      "projectAccountant": "Vianney Marie Isana",
+      "currency": "USD",
+      "BilledARCurrent": 0,
+      "ar_0030": 0,
+      "ar_3160": 0,
+      "ar_6190": 0,
+      "ar_91120": 0,
+      "ar_121180": 0,
+      "ar_181360": 0,
+      "ar_360": 0,
+      "retention": 0,
+      "ar_total": 0,
+      "ar_0030_series": [
+        215784, 510751, 661601, 435170, 936614, 823970, 948628, 627777, 344284,
+        836987, 499333, 847840
+      ],
+      "ar_3160_series": [
+        927624, 492201, 548312, 150154, 119667, 473519, 770513, 100158, 956640,
+        375224, 267134, 110369
+      ],
+      "ar_6190_series": [
+        614170, 789556, 702646, 137167, 551588, 105200, 671560, 698237, 897943,
+        429067, 461335, 508885
+      ],
+      "ar_91120_series": [
+        421157, 931931, 163012, 356461, 979559, 234172, 845497, 779311, 206528,
+        552461, 418516, 699944
+      ],
+      "ar_121180_series": [
+        207204, 217804, 526696, 329911, 832045, 199601, 731915, 111339, 363925,
+        715241, 269808, 253186
+      ],
+      "ar_over_180_series": [
+        937448, 277962, 844130, 112328, 676578, 733856, 423112, 900988, 755643,
+        730179, 752784, 329750
+      ],
+      "retentionAdjustment": [
+        652149, 692000, 681612, 327713, 505857, 391878, 867256, 834332, 749244,
+        527826, 318555, 671323
+      ],
+      "billedARDaysActuals": [1, 10, 4, 5, 15, 7, 13, 4, 6, 10, 9, 5],
+      "lastInvoiceDate": 0,
+      "projectStatus": "Approved",
+      "bu_name": "80.AECOM AUST",
+      "operatingGroup": "International",
+      "strategicBusinessUnit": "ANZ",
+      "areaInfo": "ANZ - NAC",
+      "subArea": "ANZ - NAC",
+      "level5Organization": "Sydney - NAC",
+      "globalBusinessLine": "B&P - Buildings & Places",
+      "department": "N062 - 80.B+P - CONSULTING + TECHNOLOGY",
+      "customer_id": "186114",
+      "customer_name": "TRANSPORT FOR NSW"
+    },
+    {
+      "project_id": 10002,
+      "project_number": 600002,
+      "projectName": "DFAT Document Review2",
+      "projectManager": "Bourke, Peter John",
+      "projectApprover": "Donnelly, Stephanie",
+      "projectAccountant": "Vianney Marie Isana",
+      "currency": "USD",
+      "BilledARCurrent": 0,
+      "ar_0030": 0,
+      "ar_3160": 0,
+      "ar_6190": 0,
+      "ar_91120": 0,
+      "ar_121180": 0,
+      "ar_181360": 0,
+      "ar_360": 0,
+      "retention": 0,
+      "ar_total": 0,
+      "ar_0030_series": [
+        343940, 854567, 585360, 976697, 468496, 334063, 380466, 362625, 201167,
+        181003, 253754, 604578
+      ],
+      "ar_3160_series": [
+        442095, 199203, 266567, 120125, 409476, 963008, 606889, 739365, 880508,
+        874101, 937294, 996677
+      ],
+      "ar_6190_series": [
+        443013, 310466, 519447, 289453, 229387, 612412, 933089, 482991, 666068,
+        557668, 944437, 128460
+      ],
+      "ar_91120_series": [
+        698010, 973493, 948867, 177370, 286351, 476564, 234858, 332818, 353487,
+        880054, 505763, 524513
+      ],
+      "ar_121180_series": [
+        476170, 535249, 578814, 857764, 741069, 445914, 807496, 936788, 402401,
+        749404, 438010, 699816
+      ],
+      "ar_over_180_series": [
+        331673, 417596, 973121, 571456, 128135, 624044, 848126, 467935, 697607,
+        297738, 326093, 653781
+      ],
+      "retentionAdjustment": [
+        973727, 335389, 977404, 616623, 792786, 739864, 358711, 121759, 559666,
+        858440, 996163, 897489
+      ],
+      "billedARDaysActuals": [5, 5, 7, 10, 13, 12, 1, 3, 6, 3, 1, 6],
+      "lastInvoiceDate": 0,
+      "projectStatus": "Approved",
+      "bu_name": "80.AECOM AUST",
+      "operatingGroup": "International",
+      "strategicBusinessUnit": "ANZ",
+      "areaInfo": "ANZ - NAC",
+      "subArea": "ANZ - NAC",
+      "level5Organization": "Sydney - NAC",
+      "globalBusinessLine": "B&P - Buildings & Places",
+      "department": "N062 - 80.B+P - CONSULTING + TECHNOLOGY",
+      "customer_id": "186114",
+      "customer_name": "TRANSPORT FOR NSW"
+    },
+    {
+      "project_id": 10003,
+      "project_number": 600003,
+      "projectName": "DFAT Document Review3",
+      "projectManager": "Bourke, Peter John",
+      "projectApprover": "Donnelly, Stephanie",
+      "projectAccountant": "Vianney Marie Isana",
+      "currency": "USD",
+      "BilledARCurrent": 0,
+      "ar_0030": 0,
+      "ar_3160": 0,
+      "ar_6190": 0,
+      "ar_91120": 0,
+      "ar_121180": 0,
+      "ar_181360": 0,
+      "ar_360": 0,
+      "retention": 0,
+      "ar_total": 0,
+      "ar_0030_series": [
+        702433, 854830, 572458, 301422, 954944, 423809, 885523, 392199, 748677,
+        830629, 520892, 773269
+      ],
+      "ar_3160_series": [
+        664579, 151389, 327960, 455780, 441849, 939237, 246525, 331984, 738099,
+        701169, 544684, 814004
+      ],
+      "ar_6190_series": [
+        211698, 495548, 512706, 774471, 547496, 888403, 725494, 697121, 493635,
+        823455, 595528, 120038
+      ],
+      "ar_91120_series": [
+        999645, 989931, 204203, 310862, 237577, 494118, 237731, 447883, 284462,
+        371940, 726389, 897132
+      ],
+      "ar_121180_series": [
+        266149, 692995, 276566, 373683, 872358, 530018, 323951, 621239, 871364,
+        707722, 650915, 273964
+      ],
+      "ar_over_180_series": [
+        338088, 223659, 907423, 265959, 883460, 419111, 360303, 978155, 314339,
+        468489, 894738, 898165
+      ],
+      "retentionAdjustment": [
+        421883, 334196, 965305, 270702, 587423, 914627, 632477, 647505, 753054,
+        641214, 893354, 782387
+      ],
+      "billedARDaysActuals": [12, 11, 9, 13, 10, 5, 15, 7, 7, 6, 8, 4],
+      "lastInvoiceDate": 0,
+      "projectStatus": "Approved",
+      "bu_name": "80.AECOM AUST",
+      "operatingGroup": "International",
+      "strategicBusinessUnit": "ANZ",
+      "areaInfo": "ANZ - NAC",
+      "subArea": "ANZ - NAC",
+      "level5Organization": "Sydney - NAC",
+      "globalBusinessLine": "B&P - Buildings & Places",
+      "department": "N062 - 80.B+P - CONSULTING + TECHNOLOGY",
+      "customer_id": "186114",
+      "customer_name": "TRANSPORT FOR NSW"
+    },
+    {
+      "project_id": 10004,
+      "project_number": 600004,
+      "projectName": "DFAT Document Review4",
+      "projectManager": "Bourke, Peter John",
+      "projectApprover": "Donnelly, Stephanie",
+      "projectAccountant": "Vianney Marie Isana",
+      "currency": "USD",
+      "BilledARCurrent": 0,
+      "ar_0030": 0,
+      "ar_3160": 0,
+      "ar_6190": 0,
+      "ar_91120": 0,
+      "ar_121180": 0,
+      "ar_181360": 0,
+      "ar_360": 0,
+      "retention": 0,
+      "ar_total": 0,
+      "ar_0030_series": [
+        521810, 380325, 755228, 366054, 961377, 889096, 362339, 296284, 229105,
+        744258, 715135, 479939
+      ],
+      "ar_3160_series": [
+        245650, 127338, 167630, 755333, 761759, 579469, 652709, 731065, 725987,
+        345516, 339430, 274079
+      ],
+      "ar_6190_series": [
+        640807, 269359, 726289, 133025, 979711, 212696, 607320, 447585, 112301,
+        177953, 223010, 745594
+      ],
+      "ar_91120_series": [
+        856802, 930746, 290523, 926832, 397365, 868857, 702066, 682877, 779610,
+        535915, 857956, 504664
+      ],
+      "ar_121180_series": [
+        534574, 394469, 551474, 933439, 508459, 861639, 892183, 168352, 433188,
+        346651, 666554, 288451
+      ],
+      "ar_over_180_series": [
+        509464, 620902, 172771, 972487, 459748, 711205, 177802, 523889, 444871,
+        757583, 444274, 751418
+      ],
+      "retentionAdjustment": [
+        862945, 309981, 299767, 387090, 107146, 637908, 290811, 279169, 864131,
+        650268, 665150, 960463
+      ],
+      "billedARDaysActuals": [14, 6, 4, 7, 11, 10, 3, 3, 8, 2, 11, 15],
+      "lastInvoiceDate": 0,
+      "projectStatus": "Approved",
+      "bu_name": "80.AECOM AUST",
+      "operatingGroup": "International",
+      "strategicBusinessUnit": "ANZ",
+      "areaInfo": "ANZ - NAC",
+      "subArea": "ANZ - NAC",
+      "level5Organization": "Sydney - NAC",
+      "globalBusinessLine": "B&P - Buildings & Places",
+      "department": "N062 - 80.B+P - CONSULTING + TECHNOLOGY",
+      "customer_id": "186114",
+      "customer_name": "TRANSPORT FOR NSW"
+    }
+  ]
+}
+}

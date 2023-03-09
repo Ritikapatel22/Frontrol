@@ -1,0 +1,148 @@
+{
+      "columnDefs": [
+            {
+                  "field": "aging",
+                  "headerName": "Aging",
+                  "width": 180,
+                  "pinned": "left",
+                  "type": ["supressFilter"]
+            },
+            {
+                  "field": "bucket1",
+                  "headerName": "Sep-21",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 0,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket2",
+                  "headerName": "Oct-21",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 1,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket3",
+                  "headerName": "Nov-21",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 2,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket4",
+                  "headerName": "Dec-21",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 3,
+                  "type": [
+                        "currencyColumn",
+                        "totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket5",
+                  "headerName": "Jan-22",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 4,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket6",
+                  "headerName": "Feb-22",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 5,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket7",
+                  "headerName": "Mar-22",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 6,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket8",
+                  "headerName": "Apr-22",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 7,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket9",
+                  "headerName": "May-22",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 8,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket10",
+                  "headerName": "Jun-22",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 9,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket11",
+                  "headerName": "Jul-22",
+                  "headerHidden": true,
+                  "width": 135,
+                  "remoteHeaderNameIdx": 10,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            },
+            {
+                  "field": "bucket12",
+                  "headerName": "Current",
+                  "width": 135,
+                  "remoteHeaderNameIdx": 11,
+                  "type": [
+                        "currencyColumn","totalColumn"
+                  ]
+            }
+      ],
+      "suppressDragLeaveHidesColumns": true,
+      "defaultColDef": {
+            "wrapHeaderText": true,
+            "autoHeaderHeight": true,
+            "resizable": true,
+            "menuTabs": [
+                  "generalMenuTab"
+            ],
+            "suppressMovable": true
+      },
+      "enableRangeSelection": true,
+      "enableColumnMoving": false,
+      "defaultExcelExportParams": {
+            "fileName": "Aged AR trend",
+            "sheetName": "Table",
+            "combinedSheetName": "Aged AR trend"
+      }
+}

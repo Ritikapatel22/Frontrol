@@ -1,0 +1,156 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "width": 150,
+      "pinned": "left",
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_func_currency_code",
+      "headerName": "Currency",
+      "width": 160,
+      "type": "supressFilter"
+    },
+    {
+      "field": "gr_ytd",
+      "headerName": "GR-YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "subs_ytd",
+      "headerName": "Subs-YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "odc_ytd",
+      "headerName": "ODC-YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nsr_ytd",
+      "headerName": "NSR-YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_ytd",
+      "headerName": "GM-YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "gm_percent_of_nsr_ytd",
+      "headerName": "GM % of NSR - YTD",
+      "width": 190,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "total_costs_ytd",
+      "headerName": "Total costs - YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_ytd",
+      "headerName": "NM-YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "nm_percent_of_nsr_ytd",
+      "headerName": "NM % of NSR - YTD",
+      "width": 180,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_ytd",
+      "headerName": "Direct labor YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_multiplier_ytd",
+      "headerName": "Direct labor multiplier - YTD",
+      "width": 220,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "direct_labor_hours_ytd",
+      "headerName": "Direct labor hours - YTD",
+      "width": 220,
+      "type": [
+        "number2DecimalColumn"
+      ]
+    },
+    {
+      "field": "fringe_ytd",
+      "headerName": "Fringe - YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "overhead_ytd",
+      "headerName": "Overhead - YTD",
+      "width": 180,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    }
+  ],
+  "defaultColDef": {
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "sortable": true,
+    "wrapHeaderText": true
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "YTD"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig"
+    ]
+  }
+}

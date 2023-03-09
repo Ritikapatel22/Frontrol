@@ -1,0 +1,44 @@
+{
+    "columnDefs": [
+        {
+            "field": "suppliername",
+            "headerName": "Supplier name",
+            "width": 400,
+            "pinned": "left",
+            "type": ["supressFilter"]
+        },
+        {
+            "field": "bucket1",
+            "headerName": "Approved PO value",
+            "width": 135,
+            "type": ["currencyConversionColumn","totalColumn"]
+        },
+        {
+            "field": "bucket2",
+            "headerName": "Invoiced",
+            "width": 135,
+            "type": ["currencyConversionColumn","totalColumn"]
+        },
+        {
+            "field": "bucket3",
+            "headerName": "Remaining",
+            "width": 135,
+            "type": ["currencyConversionColumn","totalColumn"]
+        }
+    ],
+    "suppressDragLeaveHidesColumns": true,
+    "defaultColDef": {
+        "wrapHeaderText": true,
+        "autoHeaderHeight": true, 
+        "resizable": true,
+        "menuTabs": ["generalMenuTab"],
+        "suppressMovable": true
+    },
+    "enableRangeSelection": true,
+    "enableColumnMoving": false,
+    "defaultExcelExportParams": {
+        "fileName": "By supplier",
+        "sheetName": "Table",
+        "combinedSheetName": "By supplier"
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "columnDefs": [
+      {
+        "field": "bucket1", "aggFunc": "sum",
+        "headerName": "Sep-21",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 0, 
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket2", "aggFunc": "sum",
+        "headerName": "Oct-21",
+        "headerHidden": true,
+        "minWidth": 135, 
+        "remoteHeaderNameIdx": 1,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket3", "aggFunc": "sum",
+        "headerName": "Nov-21",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 2,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket4", "aggFunc": "sum",
+        "headerName": "Dec-21",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 3,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket5", "aggFunc": "sum",
+        "headerName": "Jan-22",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 4,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket6", "aggFunc": "sum",
+        "headerName": "Feb-22",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 5,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket7", "aggFunc": "sum",
+        "headerName": "Mar-22",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 6,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket8", "aggFunc": "sum",
+        "headerName": "Apr-22",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 7,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket9", "aggFunc": "sum",
+        "headerName": "May-22",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 8,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket10", "aggFunc": "sum",
+        "headerName": "Jun-22",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 9,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket11", "aggFunc": "sum",
+        "headerName": "Jul-22",
+        "headerHidden": true,
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 10,
+        "type": ["currencyColumn"]
+      },
+      {
+        "field": "bucket12", "aggFunc": "sum",
+        "headerName": "Current",
+        "minWidth": 135,
+        "remoteHeaderNameIdx": 11,
+        "type": ["currencyColumn"]
+      }
+    ],
+    "suppressDragLeaveHidesColumns": true,
+    "defaultColDef": {
+      "wrapHeaderText": true,
+      "sortable": true,
+      "resizable": true,
+      "menuTabs":[ "generalMenuTab"],
+      "suppressMovable":true,
+      "flex": 1
+    },
+    "autoGroupColumnDef" :{
+      "headerName": "Aging",
+      
+      "pinned": "left",
+      "minWidth": 300,
+      "cellRendererParams": {
+        "suppressCount": true
+      }
+    },
+    "enableRangeSelection": true,
+    "enableColumnMoving": false,
+    "defaultExcelExportParams": {
+      "fileName": "Net receivables",
+      "sheetName": "Table",
+      "combinedSheetName": "Net receivables"
+    },
+    "treeData": true,
+    "animateRows": true,
+    "groupDefaultExpanded": -1
+  }

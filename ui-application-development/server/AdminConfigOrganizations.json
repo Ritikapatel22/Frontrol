@@ -1,0 +1,12 @@
+[
+  {
+    "org_id": "101",
+    "org_name": "organization1",
+    "location": "1234 ABCD Lane, Big City"
+  },
+  {
+    "org_id": "102",
+    "org_name": "organization2",
+    "location": "5678 XYX Lane, Big City"
+  }
+]

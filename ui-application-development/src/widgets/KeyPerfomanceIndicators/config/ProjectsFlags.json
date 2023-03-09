@@ -1,0 +1,71 @@
+    {
+      "columnDefs": [
+        {
+          "field": "",
+          "headerName": "",
+          "width": 20,
+          "tooltipField": "description",
+          "pinned": "left",
+          "resizable": false,
+          "type": ["supressFilter"]
+        },
+        {
+          "field": "display_name",
+          "headerName": "KPI",
+          "width": 190,
+          "pinned": "left",
+          "type": ["supressFilter"]
+        },
+        {
+          "field": "kpi_indicator",
+          "headerName": "",
+          "width": 50,
+          "type": ["supressFilter"],
+          "tooltipField": "kpi_tooltip",
+          "resizable": false
+        },
+        {
+          "field": "current_value",
+          "headerName": "Current",
+          "width": 130,
+          "type": ["dynamicColumnFormat"]
+        },
+        {
+          "field": "kpi_updown",
+          "headerName": "",
+          "width": 20,
+          "resizable": false,
+          "type": ["supressFilter"]
+        },
+        {
+          "field": "prior_value",
+          "headerName": "Last month",
+          "width": 130,
+          "type": ["dynamicColumnFormat"]
+        },
+        {
+          "field": "message",
+          "headerName": "Message",
+          "width": 370,
+          "type": ["textColumnSingleFilter"]
+        }
+      ],
+      "suppressDragLeaveHidesColumns": true,
+      "defaultColDef": {
+        "wrapHeaderText": true,
+        "autoHeaderHeight": true,
+        "resizable": true,
+        "menuTabs": [
+          "generalMenuTab"
+        ],
+        "suppressMovable": true
+      },
+      "enableRangeSelection": true,
+      "enableColumnMoving": false,
+      "getMainMenuItems": "getMainMenuItems",
+      "defaultExcelExportParams": {
+        "fileName": "KPIs",
+        "sheetName": "Project flags"
+      },
+      "columnTypes": "columnTypesConfig"
+    }

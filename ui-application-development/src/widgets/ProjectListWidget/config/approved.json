@@ -1,0 +1,154 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "width": 150,
+      "pinned": "left", 
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      "type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_func_currency_code",
+      "headerName": "Currency",
+      "width": 160,
+      "type": "textColumnSingleFilter"
+    },
+    {
+      "field": "approved_backlog",
+      "headerName": "Approved backlog",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_revenue",
+      "headerName": "Approved revenue budget",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_res5_cost",
+      "headerName": "Approved subs budget",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_res4_cost",
+      "headerName": "Approved ODC budget",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_res6_cost",
+      "headerName": "Approved contingency budget",
+      "width": 222,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_nsr_budget",
+      "headerName": "Approved NSR budget",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_nsr_backlog",
+      "headerName": "Approved NSR backlog",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_gross_margin_budget",
+      "headerName": "Approved gross margin budget",
+      "width": 300,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_gross_margin_budget_percent_nsr",
+      "headerName": "Approved gross margin budget % of NSR",
+      "width": 320,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_cost",
+      "headerName": "Approved cost budget",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_net_margin",
+      "headerName": "Approved net margin",
+      "width": 220,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_net_margin_percent_of_nsr",
+      "headerName": "Approved net margin % of NSR",
+      "width": 260,
+      "type": [
+        "percentageColumn"
+      ]
+    },
+    {
+      "field": "at_comp_plan1_res1_cost",
+      "headerName": "Approved direct labor budget",
+      "width": 260,
+      "type": [
+        "currencyConversionColumn"
+      ]
+    },
+    {
+      "field": "approved_direct_labor_multiplier",
+      "headerName": "Approved direct labor multiplier",
+      "width": 260,
+      "type": ["number2DecimalColumn"]
+    }
+  ],
+  "defaultColDef": {
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "sortable": true,
+    "wrapHeaderText": true
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "Approved"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig"
+    ]
+  }
+}

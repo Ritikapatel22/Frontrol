@@ -1,0 +1,116 @@
+{
+  "columnDefs": [
+    {
+      "field": "project_number",
+      "headerName": "Project number",
+      "width": 150,
+      "pinned": "left",
+      " type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "project_name",
+      "headerName": "Project name",
+      "width": 220,
+      " type": ["supressFilter","linkType"],
+      "cellClass": "acm-hyperlink"
+    },
+    {
+      "field": "key_member_1",
+      "headerName": "Project manager",
+      "width": 160,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_4",
+      "headerName": "Deputy project manager",
+      "width": 190,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_3",
+      "headerName": "Project approver",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_5",
+      "headerName": "Project approver 2",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_6",
+      "headerName": "Lead verifier",
+      "width": 160,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_2",
+      "headerName": "Project accountant",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_7",
+      "headerName": "Project accountant alternate",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_8",
+      "headerName": "Project biller",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_9",
+      "headerName": "Project controls",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_10",
+      "headerName": "Project manager assistant",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_11",
+      "headerName": "Finance lead",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_12",
+      "headerName": "Finance lead 2 ",
+      "width": 220,
+      " type": "supressFilter"
+    },
+    {
+      "field": "key_member_13",
+      "headerName": "Project administrator",
+      "width": 220,
+      " type": "supressFilter"
+    }
+  ],
+  "defaultColDef": {
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "wrapHeaderText": true,
+    "sortable": true
+  },
+  "enableRangeSelection": true,
+  "defaultExcelExportParams": {
+    "fileName": "Project single line summary",
+    "sheetName": "Key Members"
+  },
+  "columnTypes": "columnTypesConfig",
+  "sideBar": {
+    "toolPanels": [
+      "sidebarColsConfig"
+    ]
+  }
+}

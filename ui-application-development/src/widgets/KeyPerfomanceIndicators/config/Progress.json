@@ -1,0 +1,92 @@
+{
+  "columnDefs": [
+    {
+      "field": "",
+      "headerName": "",
+      "width": 20,
+      "tooltipField": "description",
+      "pinned": "left",
+      "resizable": false
+    },
+    {
+      "field": "display_name",
+      "headerName": "KPI",
+      "width": 180,
+      "pinned": "left"
+    },
+    {
+      "field": "kpi_indicator",
+      "headerName": "",
+      "width": 40,
+      "tooltipField": "kpi_tooltip",
+      "cellRenderer": "agSparklineCellRenderer",
+      "cellRendererParams": {
+        "sparklineOptions": {
+          "type": "bar",
+          "xKey": "xVal",
+          "yKey": "yVal",
+          "fill": "white",
+          "stroke": "#00353E",
+          "strokeWidth": 0.25,
+          "tooltip": {
+            "enabled": false
+          },
+          "paddingOuter": 0,
+          "padding": {
+            "top": 0,
+            "bottom": 0
+          },
+          "axis": {
+            "type": "number"
+          },
+          "highlightStyle": {
+            "fill": "#00353E"
+          }
+        }
+      },
+      "resizable": false
+    },
+    {
+      "field": "current_value",
+      "headerName": "Current",
+      "width": 130,
+      "type": ["dynamicColumnFormat"]
+    },
+    {
+      "field": "kpi_updown",
+      "headerName": "",
+      "width": 20,
+      "resizable": false
+    },
+    {
+      "field": "prior_value",
+      "headerName": "Last month",
+      "width": 130,
+      "type": ["dynamicColumnFormat"]
+    },
+    {
+      "field": "message",
+      "headerName": "Message",
+      "width": 420,
+      "type": ["textColumnSingleFilter"]
+    }
+  ],
+  "suppressDragLeaveHidesColumns": true,
+  "defaultColDef": {
+    "wrapHeaderText": true,
+    "autoHeaderHeight": true,
+    "resizable": true,
+    "menuTabs": [
+      "generalMenuTab"
+    ],
+    "suppressMovable": true
+  },
+  "enableRangeSelection": true,
+  "enableColumnMoving": false,
+  "getMainMenuItems": "getMainMenuItems",
+  "defaultExcelExportParams": {
+    "fileName": "KPIs",
+    "sheetName": "Progress"
+  },
+  "columnTypes": "columnTypesConfig"
+}

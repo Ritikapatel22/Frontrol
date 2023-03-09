@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../src/assets/Font/Inter/stylesheet.css";
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: 'Inter', sans-serif ;
+}
