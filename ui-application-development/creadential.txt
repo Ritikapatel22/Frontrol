@@ -1,0 +1,9 @@
+// env file details
+
+REACT_APP_AG_GRID_LICENSE_KEY=CompanyName=Frontrol Inc,LicensedGroup=FrontrolDev01,LicenseType=MultipleApplications,LicensedConcurrentDeveloperCount=1,LicensedProductionInstancesCount=1,AssetReference=AG-033152,SupportServicesEnd=21_September_2023_[v2]_MTY5NTI1MDgwMDAwMA==6b9dd6aa3f3035449aa2e807cfe0db62
+REACT_APP_FAKEDATA_BASE_URL=http://20.106.179.244/dev/fakedata
+REACT_APP_API_BASE_URL=https://dashboard.frontrol.com/api
+REACT_APP_ROOT_PATH=/
+REACT_APP_COUPA_BASE_URL=https://aecom.coupahost.com
+REACT_APP_ABC_BASE_URL=https://abc.aecom.com
+REACT_APP_ABC_DEV_BASE_URL=https://abc-test.aecom.com
